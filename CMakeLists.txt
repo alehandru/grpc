@@ -411,7 +411,7 @@ if (NOT EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/third_party/xds)
 endif()
 
 if(WIN32)
-  set(_gRPC_BASELIB_LIBRARIES ws2_32 crypt32)
+  set(_gRPC_BASELIB_LIBRARIES wsock32 ws2_32 crypt32 gdi32)
 endif()
 
 # Create directory for proto source files
