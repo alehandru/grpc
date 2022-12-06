@@ -81,6 +81,8 @@ void grpc_stream_ref_init(grpc_stream_refcount* refcount, int /*initial_refs*/,
                                                              : nullptr);
 }
 
+#undef move64
+
 static void move64bits(uint64_t* from, uint64_t* to) {
   *to += *from;
   *from = 0;
