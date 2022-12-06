@@ -85,6 +85,9 @@ set_property(CACHE gRPC_SSL_PROVIDER PROPERTY STRINGS "module" "package")
 set(gRPC_PROTOBUF_PROVIDER "module" CACHE STRING "Provider of protobuf library")
 set_property(CACHE gRPC_PROTOBUF_PROVIDER PROPERTY STRINGS "module" "package")
 
+set(gRPC_UPB_PROVIDER "module" CACHE STRING "Provider of upb library")
+set_property(CACHE gRPC_UPB_PROVIDER PROPERTY STRINGS "module" "package")
+
 set(gRPC_PROTOBUF_PACKAGE_TYPE "" CACHE STRING "Algorithm for searching protobuf package")
 set_property(CACHE gRPC_PROTOBUF_PACKAGE_TYPE PROPERTY STRINGS "CONFIG" "MODULE")
 
@@ -1606,6 +1609,7 @@ target_link_libraries(gpr
   absl::time
   absl::optional
   absl::variant
+  ${_gRPC_UPB_LIBRARIES}
 )
 if(_gRPC_PLATFORM_ANDROID)
   target_link_libraries(gpr
@@ -2423,7 +2427,6 @@ target_link_libraries(grpc
   gpr
   ${_gRPC_SSL_LIBRARIES}
   address_sorting
-  upb
 )
 if(_gRPC_PLATFORM_IOS OR _gRPC_PLATFORM_MAC)
   target_link_libraries(grpc "-framework CoreFoundation")
@@ -3021,7 +3024,6 @@ target_link_libraries(grpc_unsecure
   absl::utility
   gpr
   address_sorting
-  upb
 )
 if(_gRPC_PLATFORM_IOS OR _gRPC_PLATFORM_MAC)
   target_link_libraries(grpc_unsecure "-framework CoreFoundation")
@@ -4330,6 +4332,7 @@ endif()
 
 endif()
 
+if (gRPC_UPB_PROVIDER STREQUAL "module")
 add_library(upb
   third_party/upb/third_party/utf8_range/naive.c
   third_party/upb/third_party/utf8_range/range2-neon.c
@@ -4398,7 +4401,7 @@ if(gRPC_INSTALL)
     ARCHIVE DESTINATION ${gRPC_INSTALL_LIBDIR}
   )
 endif()
-
+endif()
 
 if(gRPC_BUILD_TESTS)
 
