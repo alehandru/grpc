@@ -336,6 +336,11 @@ include(cmake/xxhash.cmake)
 include(cmake/zlib.cmake)
 include(cmake/download_archive.cmake)
 
+if (ABSL_USE_CXX17)
+    message(STATUS "Found absl uses CXX17, enable CXX17 feature.")
+    set(CMAKE_CXX_STANDARD 17)
+endif()
+
 # Setup external proto library at third_party/envoy-api with 2 download URLs
 if (NOT EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/third_party/envoy-api)
   # Download the archive via HTTP, validate the checksum, and extract to third_party/envoy-api.
