@@ -39,6 +39,7 @@ bool check_bios_data(const char*) { return false; }
 bool check_windows_registry_product_name(HKEY root_key,
                                          const char* reg_key_path,
                                          const char* reg_key_name) {
+#if !defined(WINAPI_FAMILY) || WINAPI_FAMILY == WINAPI_FAMILY_DESKTOP_APP
   const size_t kProductNameBufferSize = 256;
   char const expected_substr[] = "Google";
 
@@ -71,6 +72,9 @@ bool check_windows_registry_product_name(HKEY root_key,
   }
 
   return strstr(buffer, expected_substr) != nullptr;
+#else
+  return false;
+#endif
 }
 
 }  // namespace internal

@@ -220,6 +220,9 @@ if(UNIX)
 endif()
 if(WIN32)
   set(_gRPC_PLATFORM_WINDOWS ON)
+  if(CMAKE_SYSTEM_NAME STREQUAL "WindowsStore")
+    set(_gRPC_PLATFORM_UWP ON)
+  endif()
 endif()
 
  # Use C11 standard
@@ -264,6 +267,9 @@ if(MSVC)
   set(_gRPC_C_CXX_FLAGS "${_gRPC_C_CXX_FLAGS} /wd4267")
   # TODO(jtattermusch): needed to build boringssl with VS2017, revisit later
   set(_gRPC_C_CXX_FLAGS "${_gRPC_C_CXX_FLAGS} /wd4987 /wd4774 /wd4819 /wd4996 /wd4619")
+  if(_gRPC_PLATFORM_UWP)
+    add_definitions(-DGRPC_ARES=0)
+  endif()
   # Silences thousands of trucation warnings
   set(_gRPC_C_CXX_FLAGS "${_gRPC_C_CXX_FLAGS} /wd4503")
   # Tell MSVC to build grpc using utf-8
@@ -431,6 +437,10 @@ file(MAKE_DIRECTORY ${_gRPC_PROTO_GENS_DIR})
 #     ``.proto`` files
 #
 function(protobuf_generate_grpc_cpp)
+  if(_gRPC_PLATFORM_UWP)
+    return()
+  endif()
+
   if(NOT ARGN)
     message(SEND_ERROR "Error: PROTOBUF_GENERATE_GRPC_CPP() called without any proto files")
     return()
@@ -553,6 +563,7 @@ if (gRPC_BUILD_GRPC_RUBY_PLUGIN)
   list(APPEND _gRPC_PLUGIN_LIST grpc_ruby_plugin)
 endif ()
 
+if(NOT _gRPC_PLATFORM_UWP)
 add_custom_target(plugins
   DEPENDS ${_gRPC_PLUGIN_LIST}
 )
@@ -567,6 +578,7 @@ add_custom_target(tools_cxx
 
 add_custom_target(tools
   DEPENDS tools_c tools_cxx)
+endif()
 
 protobuf_generate_grpc_cpp_with_import_path_correction(
   src/proto/grpc/channelz/channelz.proto src/proto/grpc/channelz/channelz.proto
