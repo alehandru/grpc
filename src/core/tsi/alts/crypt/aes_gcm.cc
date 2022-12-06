@@ -19,6 +19,7 @@
 #include <grpc/support/port_platform.h>
 
 #include <string.h>
+#include <cstdio>
 
 #include <openssl/bio.h>
 #include <openssl/buffer.h>
