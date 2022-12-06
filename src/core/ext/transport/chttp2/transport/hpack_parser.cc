@@ -1037,7 +1037,7 @@ class HPackParser::Parser {
 
  private:
   void GPR_ATTRIBUTE_NOINLINE LogHeader(const HPackTable::Memento& memento) {
-    const char* type;
+    const char* type = nullptr;
     switch (log_info_.type) {
       case LogInfo::kHeaders:
         type = "HDR";

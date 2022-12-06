@@ -902,7 +902,7 @@ grpc_call_error Server::QueueRequestedCall(size_t cq_idx, RequestedCall* rc) {
     FailCall(cq_idx, rc, GRPC_ERROR_CREATE("Server Shutdown"));
     return GRPC_CALL_OK;
   }
-  RequestMatcherInterface* rm;
+  RequestMatcherInterface* rm = nullptr;
   switch (rc->type) {
     case RequestedCall::Type::BATCH_CALL:
       rm = unregistered_request_matcher_.get();

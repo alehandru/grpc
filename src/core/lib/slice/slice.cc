@@ -188,6 +188,7 @@ grpc_slice grpc_slice_from_moved_buffer(grpc_core::UniquePtr<char> p,
                                         size_t len) {
   uint8_t* ptr = reinterpret_cast<uint8_t*>(p.get());
   grpc_slice slice;
+  memset(&slice, 0, sizeof(grpc_slice));
   if (len <= sizeof(slice.data.inlined.bytes)) {
     slice.refcount = nullptr;
     slice.data.inlined.length = len;
@@ -206,7 +207,7 @@ grpc_slice grpc_slice_from_moved_string(grpc_core::UniquePtr<char> p) {
 }
 
 grpc_slice grpc_slice_from_cpp_string(std::string str) {
-  grpc_slice slice;
+  grpc_slice slice = { 0 };
   if (str.size() <= sizeof(slice.data.inlined.bytes)) {
     slice.refcount = nullptr;
     slice.data.inlined.length = str.size();
