@@ -1,0 +1,2 @@
+C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CheckASM_NASM/CMakeFiles/ALL_BUILD.dir
+C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CheckASM_NASM/CMakeFiles/ZERO_CHECK.dir

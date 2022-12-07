@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\time\civil_time.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\time\clock.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\time\duration.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\time\format.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\time\time.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\time\civil_time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\time\clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\time\time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\time\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\time\internal\get_current_time_chrono.inc" />
+    <None Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\time\internal\get_current_time_posix.inc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4C10699D-640A-3531-9C14-F4AF4A3F511C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{97C9B03B-46B3-3AF3-A83E-BF556B363ED3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

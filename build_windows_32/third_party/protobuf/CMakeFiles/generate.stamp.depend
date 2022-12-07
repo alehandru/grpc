@@ -1,0 +1,30 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/CMakeDependentOption.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/CheckIncludeFile.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/CheckLibraryExists.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/CheckLinkerFlag.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/FindThreads.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/GNUInstallDirs.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/Internal/CheckFlagCommonConfig.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/Internal/CheckLinkerFlag.cmake
+C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/Internal/CheckSourceCompiles.cmake
+C:/work/projects/grpc_alex/third_party/protobuf/CMakeLists.txt
+C:/work/projects/grpc_alex/third_party/protobuf/cmake/CMakeLists.txt
+C:/work/projects/grpc_alex/third_party/protobuf/cmake/extract_includes.bat.in
+C:/work/projects/grpc_alex/third_party/protobuf/cmake/install.cmake
+C:/work/projects/grpc_alex/third_party/protobuf/cmake/libprotobuf-lite.cmake
+C:/work/projects/grpc_alex/third_party/protobuf/cmake/libprotobuf.cmake
+C:/work/projects/grpc_alex/third_party/protobuf/cmake/libprotoc.cmake
+C:/work/projects/grpc_alex/third_party/protobuf/cmake/protobuf-config-version.cmake.in
+C:/work/projects/grpc_alex/third_party/protobuf/cmake/protobuf-config.cmake.in
+C:/work/projects/grpc_alex/third_party/protobuf/cmake/protobuf-lite.pc.cmake
+C:/work/projects/grpc_alex/third_party/protobuf/cmake/protobuf-module.cmake.in
+C:/work/projects/grpc_alex/third_party/protobuf/cmake/protobuf-options.cmake
+C:/work/projects/grpc_alex/third_party/protobuf/cmake/protobuf.pc.cmake
+C:/work/projects/grpc_alex/third_party/protobuf/cmake/protoc.cmake
+C:/work/projects/grpc_alex/third_party/protobuf/cmake/version.rc.in
+C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in

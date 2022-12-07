@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\ostringstream.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\utf8.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\escaping.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\char_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\escaping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\ostringstream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\resize_uninitialized.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\utf8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4C10699D-640A-3531-9C14-F4AF4A3F511C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{97C9B03B-46B3-3AF3-A83E-BF556B363ED3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

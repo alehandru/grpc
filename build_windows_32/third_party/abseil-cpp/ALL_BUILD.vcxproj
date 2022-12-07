@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BED82807-B97D-3EE7-813F-FD52B2B9CABA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\ALL_BUILD.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/work/projects/grpc_alex/third_party/abseil-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex -BC:/work/projects/grpc_alex/build_windows_32 --check-stamp-file C:/work/projects/grpc_alex/build_windows_32/third_party/abseil-cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\BasicConfigVersion-ExactVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;C:\work\projects\grpc_alex\third_party\abseil-cpp\CMake\AbseilDll.cmake;C:\work\projects\grpc_alex\third_party\abseil-cpp\CMake\AbseilHelpers.cmake;C:\work\projects\grpc_alex\third_party\abseil-cpp\CMake\abslConfig.cmake.in;C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\copts\AbseilConfigureCopts.cmake;C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\copts\GENERATED_AbseilCopts.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/work/projects/grpc_alex/third_party/abseil-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex -BC:/work/projects/grpc_alex/build_windows_32 --check-stamp-file C:/work/projects/grpc_alex/build_windows_32/third_party/abseil-cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\BasicConfigVersion-ExactVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;C:\work\projects\grpc_alex\third_party\abseil-cpp\CMake\AbseilDll.cmake;C:\work\projects\grpc_alex\third_party\abseil-cpp\CMake\AbseilHelpers.cmake;C:\work\projects\grpc_alex\third_party\abseil-cpp\CMake\abslConfig.cmake.in;C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\copts\AbseilConfigureCopts.cmake;C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\copts\GENERATED_AbseilCopts.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/work/projects/grpc_alex/third_party/abseil-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex -BC:/work/projects/grpc_alex/build_windows_32 --check-stamp-file C:/work/projects/grpc_alex/build_windows_32/third_party/abseil-cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\BasicConfigVersion-ExactVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;C:\work\projects\grpc_alex\third_party\abseil-cpp\CMake\AbseilDll.cmake;C:\work\projects\grpc_alex\third_party\abseil-cpp\CMake\AbseilHelpers.cmake;C:\work\projects\grpc_alex\third_party\abseil-cpp\CMake\abslConfig.cmake.in;C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\copts\AbseilConfigureCopts.cmake;C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\copts\GENERATED_AbseilCopts.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/work/projects/grpc_alex/third_party/abseil-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex -BC:/work/projects/grpc_alex/build_windows_32 --check-stamp-file C:/work/projects/grpc_alex/build_windows_32/third_party/abseil-cpp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\BasicConfigVersion-ExactVersion.cmake.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeParseArguments.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\WriteBasicConfigVersionFile.cmake;C:\work\projects\grpc_alex\third_party\abseil-cpp\CMake\AbseilDll.cmake;C:\work\projects\grpc_alex\third_party\abseil-cpp\CMake\AbseilHelpers.cmake;C:\work\projects\grpc_alex\third_party\abseil-cpp\CMake\abslConfig.cmake.in;C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\copts\AbseilConfigureCopts.cmake;C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\copts\GENERATED_AbseilCopts.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\ZERO_CHECK.vcxproj">
+      <Project>{14C081F1-D45E-3AE0-AF48-6A4B93D27FDA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\types\bad_any_cast_impl.vcxproj">
+      <Project>{02E6D652-8F7A-3A20-B42E-5965D95BE783}</Project>
+      <Name>bad_any_cast_impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\types\bad_optional_access.vcxproj">
+      <Project>{88333C0C-EB26-3014-8FB9-56E6C65E1057}</Project>
+      <Name>bad_optional_access</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\types\bad_variant_access.vcxproj">
+      <Project>{250909CF-A9BD-3BCA-B482-5AAD9A5C2A4F}</Project>
+      <Name>bad_variant_access</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\base\base.vcxproj">
+      <Project>{0095BB24-3280-3025-857D-E61E3CDF1A0B}</Project>
+      <Name>base</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\hash\city.vcxproj">
+      <Project>{8506315A-5E59-34E6-B4C4-137F36999041}</Project>
+      <Name>city</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\time\civil_time.vcxproj">
+      <Project>{ECEE2FF0-8C5A-30A2-9734-46D19A0F8A99}</Project>
+      <Name>civil_time</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\cord.vcxproj">
+      <Project>{188B8765-6EF9-3C3B-858A-095ADFB09624}</Project>
+      <Name>cord</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\cord_internal.vcxproj">
+      <Project>{A61BFD61-F189-30AF-816B-3CA7DC94FFD2}</Project>
+      <Name>cord_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\cordz_functions.vcxproj">
+      <Project>{829E3664-56DD-35AD-931B-E739BDAAADAF}</Project>
+      <Name>cordz_functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\cordz_handle.vcxproj">
+      <Project>{247EA511-3E79-37EB-94B8-1A7A6C69EB97}</Project>
+      <Name>cordz_handle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\cordz_info.vcxproj">
+      <Project>{866346E8-CCEF-3D8D-BB9A-E8D7AE3231F9}</Project>
+      <Name>cordz_info</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\cordz_sample_token.vcxproj">
+      <Project>{2E43C187-AC7D-361D-8780-DCD4209D3CE4}</Project>
+      <Name>cordz_sample_token</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\debugging\debugging_internal.vcxproj">
+      <Project>{2E801C80-A6A5-3BDC-ACA2-17E87C4A226D}</Project>
+      <Name>debugging_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\debugging\demangle_internal.vcxproj">
+      <Project>{E721D027-1F88-3760-9A44-129197237E2D}</Project>
+      <Name>demangle_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\debugging\examine_stack.vcxproj">
+      <Project>{3738E585-D4AA-3DFC-848D-FC0CA2401882}</Project>
+      <Name>examine_stack</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\profiling\exponential_biased.vcxproj">
+      <Project>{58F826D6-F10B-3E35-BF52-865F3325C24A}</Project>
+      <Name>exponential_biased</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\debugging\failure_signal_handler.vcxproj">
+      <Project>{265A887C-F91E-3E26-BF7E-599AE23C7DED}</Project>
+      <Name>failure_signal_handler</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\flags\flags.vcxproj">
+      <Project>{72A7B2FB-D9E6-36CE-A1C6-278B34C4D89D}</Project>
+      <Name>flags</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\flags\flags_commandlineflag.vcxproj">
+      <Project>{A7BE2130-7FCE-3B5C-8CB0-322797B3582F}</Project>
+      <Name>flags_commandlineflag</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\flags\flags_commandlineflag_internal.vcxproj">
+      <Project>{DB3B3524-6F91-3E6F-8F97-7644A6DD3D42}</Project>
+      <Name>flags_commandlineflag_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\flags\flags_config.vcxproj">
+      <Project>{F21AC63C-4407-3B70-8D38-49280F504B8A}</Project>
+      <Name>flags_config</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\flags\flags_internal.vcxproj">
+      <Project>{E1CAA9AF-3294-32F7-82FC-8FC42A15A831}</Project>
+      <Name>flags_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\flags\flags_marshalling.vcxproj">
+      <Project>{4DEEEC01-95B1-3FA3-8B06-8210A281DD86}</Project>
+      <Name>flags_marshalling</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\flags\flags_parse.vcxproj">
+      <Project>{F1101A04-0547-34D0-A64A-2B4F242B2C14}</Project>
+      <Name>flags_parse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\flags\flags_private_handle_accessor.vcxproj">
+      <Project>{0CAAADFB-0228-3F78-A656-A73A7F53FE2A}</Project>
+      <Name>flags_private_handle_accessor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\flags\flags_program_name.vcxproj">
+      <Project>{18AAEBB1-82E0-3CD8-9442-C88C6C9F55C4}</Project>
+      <Name>flags_program_name</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\flags\flags_reflection.vcxproj">
+      <Project>{18E2FB2C-3DEC-302B-9086-B995B3F24A0F}</Project>
+      <Name>flags_reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\flags\flags_usage.vcxproj">
+      <Project>{21578E81-D8BF-3F48-91C5-EF2EF0B955D4}</Project>
+      <Name>flags_usage</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\flags\flags_usage_internal.vcxproj">
+      <Project>{EBC4CDE5-6412-322B-B35C-96CFBF021975}</Project>
+      <Name>flags_usage_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\synchronization\graphcycles_internal.vcxproj">
+      <Project>{63D6D271-A24B-3A10-9807-8D4B26AE59CD}</Project>
+      <Name>graphcycles_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\hash\hash.vcxproj">
+      <Project>{C2BCF655-FE73-3C1C-85CF-BC95B663DF88}</Project>
+      <Name>hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\container\hashtablez_sampler.vcxproj">
+      <Project>{63D8BD11-E03F-3625-94C7-CD64891A461E}</Project>
+      <Name>hashtablez_sampler</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\numeric\int128.vcxproj">
+      <Project>{248BEF77-EDA3-3F2C-A739-5B128691B079}</Project>
+      <Name>int128</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\debugging\leak_check.vcxproj">
+      <Project>{41AA3F9E-110C-3F53-9E54-FD1792F0B800}</Project>
+      <Name>leak_check</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\base\log_severity.vcxproj">
+      <Project>{0A1E6DF5-0B08-3FF7-A57F-336B1CB93840}</Project>
+      <Name>log_severity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\hash\low_level_hash.vcxproj">
+      <Project>{4EF0E11D-2486-3A06-A159-B1C7932F5A09}</Project>
+      <Name>low_level_hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\base\malloc_internal.vcxproj">
+      <Project>{6F0328CD-FBAB-3731-8EB7-3CB8E8BA9E11}</Project>
+      <Name>malloc_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\profiling\periodic_sampler.vcxproj">
+      <Project>{A1176031-D541-3ACD-98E5-ED00D67760A8}</Project>
+      <Name>periodic_sampler</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\random\random_distributions.vcxproj">
+      <Project>{8D70DEBB-FE77-31FE-A0EF-6017A8E00A85}</Project>
+      <Name>random_distributions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\random\random_internal_distribution_test_util.vcxproj">
+      <Project>{440C7E19-FDFF-3CD9-962F-542B2A88B219}</Project>
+      <Name>random_internal_distribution_test_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\random\random_internal_platform.vcxproj">
+      <Project>{BB0F2C9F-79B5-3A66-9915-2FE4010E20CE}</Project>
+      <Name>random_internal_platform</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\random\random_internal_pool_urbg.vcxproj">
+      <Project>{F1F13B53-27EA-34CF-A48D-B520BFFC4934}</Project>
+      <Name>random_internal_pool_urbg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\random\random_internal_randen.vcxproj">
+      <Project>{9642A15E-E0EC-39E0-8A57-280AD180838B}</Project>
+      <Name>random_internal_randen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\random\random_internal_randen_hwaes.vcxproj">
+      <Project>{A091E1EB-1CD7-3D33-B134-06F3DFDDCFEA}</Project>
+      <Name>random_internal_randen_hwaes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\random\random_internal_randen_hwaes_impl.vcxproj">
+      <Project>{D17F574B-77FF-3906-BC89-D577F1596040}</Project>
+      <Name>random_internal_randen_hwaes_impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\random\random_internal_randen_slow.vcxproj">
+      <Project>{4001DCEC-C380-37F5-A198-7ABB7A59475B}</Project>
+      <Name>random_internal_randen_slow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\random\random_internal_seed_material.vcxproj">
+      <Project>{8C848637-DA83-3B92-9095-B1098B46488E}</Project>
+      <Name>random_internal_seed_material</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\random\random_seed_gen_exception.vcxproj">
+      <Project>{3AF73F39-A77D-3A12-8055-CB9DC59DE95F}</Project>
+      <Name>random_seed_gen_exception</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\random\random_seed_sequences.vcxproj">
+      <Project>{8F580F18-03FC-3041-91DD-FC2CF2BB425D}</Project>
+      <Name>random_seed_sequences</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\container\raw_hash_set.vcxproj">
+      <Project>{913AEE56-2FC4-3E9D-A61C-1E93C4771D80}</Project>
+      <Name>raw_hash_set</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\base\raw_logging_internal.vcxproj">
+      <Project>{11EA7834-F37B-386E-882F-A1D5EDDDE43F}</Project>
+      <Name>raw_logging_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\base\scoped_set_env.vcxproj">
+      <Project>{20914E94-355C-3520-B8D4-C6F7E90AAE6A}</Project>
+      <Name>scoped_set_env</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\base\spinlock_wait.vcxproj">
+      <Project>{8232B44F-9423-3C99-8C84-F030E8A6D0D9}</Project>
+      <Name>spinlock_wait</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\debugging\stacktrace.vcxproj">
+      <Project>{C8BD6630-13CB-3DD7-9D8F-DD2DF08991AF}</Project>
+      <Name>stacktrace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\status\status.vcxproj">
+      <Project>{94C420EE-775D-3070-BB4F-3DA47E931233}</Project>
+      <Name>status</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\status\statusor.vcxproj">
+      <Project>{ECEA437F-46B9-3144-9F54-700E857F81D1}</Project>
+      <Name>statusor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\str_format_internal.vcxproj">
+      <Project>{3CEB840E-C5F1-376E-8C07-12AA21183620}</Project>
+      <Name>str_format_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\base\strerror.vcxproj">
+      <Project>{22EAA957-AF1E-3E8D-A969-7C34D64F07DE}</Project>
+      <Name>strerror</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\strings.vcxproj">
+      <Project>{8591FF92-A3AA-336D-9823-EB3DFF079755}</Project>
+      <Name>strings</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\strings_internal.vcxproj">
+      <Project>{346C575B-E415-3B54-85D0-D6FB55660D40}</Project>
+      <Name>strings_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\debugging\symbolize.vcxproj">
+      <Project>{C83A101C-B646-3109-8B5B-19D77334AA0E}</Project>
+      <Name>symbolize</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\synchronization\synchronization.vcxproj">
+      <Project>{5FE230B0-C92E-3611-B632-65DB29F13245}</Project>
+      <Name>synchronization</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\base\throw_delegate.vcxproj">
+      <Project>{4EF533A1-CE97-34E5-A547-A43F354FD964}</Project>
+      <Name>throw_delegate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\time\time.vcxproj">
+      <Project>{D4B50770-6884-3BBE-BAFC-EF8AB0C627A9}</Project>
+      <Name>time</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\time\time_zone.vcxproj">
+      <Project>{452BAF9B-7661-3886-9932-E953A8BE88EB}</Project>
+      <Name>time_zone</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

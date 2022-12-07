@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BED82807-B97D-3EE7-813F-FD52B2B9CABA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\ALL_BUILD.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\third_party\re2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\third_party\re2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\third_party\re2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\third_party\re2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\projects\grpc_alex\third_party\re2\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/work/projects/grpc_alex/third_party/re2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex -BC:/work/projects/grpc_alex/build_windows_32 --check-stamp-file C:/work/projects/grpc_alex/build_windows_32/third_party/re2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\re2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/work/projects/grpc_alex/third_party/re2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex -BC:/work/projects/grpc_alex/build_windows_32 --check-stamp-file C:/work/projects/grpc_alex/build_windows_32/third_party/re2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\re2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/work/projects/grpc_alex/third_party/re2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex -BC:/work/projects/grpc_alex/build_windows_32 --check-stamp-file C:/work/projects/grpc_alex/build_windows_32/third_party/re2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\re2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/work/projects/grpc_alex/third_party/re2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex -BC:/work/projects/grpc_alex/build_windows_32 --check-stamp-file C:/work/projects/grpc_alex/build_windows_32/third_party/re2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\re2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\ZERO_CHECK.vcxproj">
+      <Project>{14C081F1-D45E-3AE0-AF48-6A4B93D27FDA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\charclass_test.vcxproj">
+      <Project>{5CE4B104-617A-3856-91BC-DF75F1692806}</Project>
+      <Name>charclass_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\compile_test.vcxproj">
+      <Project>{840D01E7-0A3F-393A-BE90-3AA7F77C165B}</Project>
+      <Name>compile_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\dfa_test.vcxproj">
+      <Project>{2EAA7F91-BC63-31C9-8F1F-9CE2798AB1B0}</Project>
+      <Name>dfa_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\exhaustive1_test.vcxproj">
+      <Project>{4A36F8C5-43CD-365A-AFEC-C08EBCFEBC39}</Project>
+      <Name>exhaustive1_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\exhaustive2_test.vcxproj">
+      <Project>{94867766-4C81-3C15-9D57-A9D4CBE5FEE1}</Project>
+      <Name>exhaustive2_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\exhaustive3_test.vcxproj">
+      <Project>{98D6D543-E72A-3C97-9EFC-51A085FE94F5}</Project>
+      <Name>exhaustive3_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\exhaustive_test.vcxproj">
+      <Project>{7A0DD12C-42A1-30FD-B166-1E3FE6710AAF}</Project>
+      <Name>exhaustive_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\filtered_re2_test.vcxproj">
+      <Project>{2AF1C1FC-03D1-349A-BAC7-F5D2262CF6DE}</Project>
+      <Name>filtered_re2_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\mimics_pcre_test.vcxproj">
+      <Project>{49B626BE-F32F-37F3-8C71-2DC12C4ECA8F}</Project>
+      <Name>mimics_pcre_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\parse_test.vcxproj">
+      <Project>{28C1B652-0EC7-36BC-909F-A28B79F3B337}</Project>
+      <Name>parse_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\possible_match_test.vcxproj">
+      <Project>{3B3B72D1-25F0-3474-8AD6-434DF8F0E47C}</Project>
+      <Name>possible_match_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\random_test.vcxproj">
+      <Project>{A6B9B406-2F80-37AC-86C3-3AD636F036DF}</Project>
+      <Name>random_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\re2.vcxproj">
+      <Project>{6E13A8BA-5384-3D85-90BB-7A721994B5FD}</Project>
+      <Name>re2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\re2_arg_test.vcxproj">
+      <Project>{7D4CAEAD-931E-34AC-8109-90BFB8DDE03C}</Project>
+      <Name>re2_arg_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\re2_test.vcxproj">
+      <Project>{F4AD5CE0-7CB6-31DD-B451-A2108C0558C2}</Project>
+      <Name>re2_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\regexp_benchmark.vcxproj">
+      <Project>{65ADBB46-0F1F-3619-BE90-7B48F56583FE}</Project>
+      <Name>regexp_benchmark</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\regexp_test.vcxproj">
+      <Project>{F4BF0702-ABA5-3A70-BE13-BE10B55B6868}</Project>
+      <Name>regexp_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\required_prefix_test.vcxproj">
+      <Project>{E9BEB648-9C2C-3BF8-B85E-28481FE465B8}</Project>
+      <Name>required_prefix_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\search_test.vcxproj">
+      <Project>{739FFC2F-6AB0-31D3-9D57-351920CB1AB7}</Project>
+      <Name>search_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\set_test.vcxproj">
+      <Project>{C5FB091D-0D66-3152-A1DC-BD9FDFDD538C}</Project>
+      <Name>set_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\simplify_test.vcxproj">
+      <Project>{5EFCE427-843D-3607-B9E9-D8E36F48B3EE}</Project>
+      <Name>simplify_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\string_generator_test.vcxproj">
+      <Project>{2D6F8113-C938-311C-B45F-2CBF0898D0A6}</Project>
+      <Name>string_generator_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\re2\testing.vcxproj">
+      <Project>{DADCC01D-2B60-3951-A12F-62C9B2C1CB9F}</Project>
+      <Name>testing</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>
