@@ -1,4 +1,4 @@
-# Install script for directory: C:/work/projects/grpc_alex/third_party/abseil-cpp/absl/algorithm
+# Install script for directory: C:/work/projects/grpc/third_party/abseil-cpp/absl/algorithm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,10 +33,10 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/work/projects/grpc_alex/build_windows_64/lib/pkgconfig/absl_algorithm.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/work/projects/grpc/build_windows_64/lib/pkgconfig/absl_algorithm.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/work/projects/grpc_alex/build_windows_64/lib/pkgconfig/absl_algorithm_container.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/work/projects/grpc/build_windows_64/lib/pkgconfig/absl_algorithm_container.pc")
 endif()
 

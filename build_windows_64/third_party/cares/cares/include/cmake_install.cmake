@@ -1,4 +1,4 @@
-# Install script for directory: C:/work/projects/grpc_alex/third_party/cares/cares/include
+# Install script for directory: C:/work/projects/grpc/third_party/cares/cares/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Devel" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "C:/work/projects/grpc_alex/third_party/cares/cares/include/ares.h"
-    "C:/work/projects/grpc_alex/third_party/cares/cares/include/ares_version.h"
-    "C:/work/projects/grpc_alex/build_windows_64/third_party/cares/cares/ares_build.h"
-    "C:/work/projects/grpc_alex/third_party/cares/cares/include/ares_rules.h"
-    "C:/work/projects/grpc_alex/third_party/cares/cares/include/ares_dns.h"
+    "C:/work/projects/grpc/third_party/cares/cares/include/ares.h"
+    "C:/work/projects/grpc/third_party/cares/cares/include/ares_version.h"
+    "C:/work/projects/grpc/build_windows_64/third_party/cares/cares/ares_build.h"
+    "C:/work/projects/grpc/third_party/cares/cares/include/ares_rules.h"
+    "C:/work/projects/grpc/third_party/cares/cares/include/ares_dns.h"
     )
 endif()
 

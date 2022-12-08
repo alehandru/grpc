@@ -1,37 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\re2\re2\testing\backtrack.cc">
+    <ClCompile Include="C:\work\projects\grpc\third_party\re2\re2\testing\backtrack.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\re2\re2\testing\dump.cc">
+    <ClCompile Include="C:\work\projects\grpc\third_party\re2\re2\testing\dump.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\re2\re2\testing\exhaustive_tester.cc">
+    <ClCompile Include="C:\work\projects\grpc\third_party\re2\re2\testing\exhaustive_tester.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\re2\re2\testing\null_walker.cc">
+    <ClCompile Include="C:\work\projects\grpc\third_party\re2\re2\testing\null_walker.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\re2\re2\testing\regexp_generator.cc">
+    <ClCompile Include="C:\work\projects\grpc\third_party\re2\re2\testing\regexp_generator.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\re2\re2\testing\string_generator.cc">
+    <ClCompile Include="C:\work\projects\grpc\third_party\re2\re2\testing\string_generator.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\re2\re2\testing\tester.cc">
+    <ClCompile Include="C:\work\projects\grpc\third_party\re2\re2\testing\tester.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\re2\util\pcre.cc">
+    <ClCompile Include="C:\work\projects\grpc\third_party\re2\util\pcre.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\work\projects\grpc_alex\third_party\re2\CMakeLists.txt" />
+    <CustomBuild Include="C:\work\projects\grpc\third_party\re2\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{5DBDCB23-1E32-33B6-A304-0FFB1D5FED1D}</UniqueIdentifier>
+      <UniqueIdentifier>{C7484222-6FFC-3C27-88FB-92A772B9DEF8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

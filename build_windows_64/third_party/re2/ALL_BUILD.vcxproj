@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{D3858B87-1931-3343-8D1E-59EF06512207}</ProjectGuid>
+    <ProjectGuid>{A175CC8D-1442-326E-B716-D113235BFBCB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -111,9 +111,9 @@
   <ItemGroup>
     <CustomBuild Include="$(SolutionDir)..\third_party\re2\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/work/projects/grpc_alex/third_party/re2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/work/projects/grpc/third_party/re2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex -BC:/work/projects/grpc_alex/build_windows_64 --check-stamp-file C:/work/projects/grpc_alex/build_windows_64/third_party/re2/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc -BC:/work/projects/grpc/build_windows_64 --check-stamp-file C:/work/projects/grpc/build_windows_64/third_party/re2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -124,9 +124,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\build_windows_64\third_party\re2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/work/projects/grpc_alex/third_party/re2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/work/projects/grpc/third_party/re2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex -BC:/work/projects/grpc_alex/build_windows_64 --check-stamp-file C:/work/projects/grpc_alex/build_windows_64/third_party/re2/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc -BC:/work/projects/grpc/build_windows_64 --check-stamp-file C:/work/projects/grpc/build_windows_64/third_party/re2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -137,9 +137,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\build_windows_64\third_party\re2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/work/projects/grpc_alex/third_party/re2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/work/projects/grpc/third_party/re2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex -BC:/work/projects/grpc_alex/build_windows_64 --check-stamp-file C:/work/projects/grpc_alex/build_windows_64/third_party/re2/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc -BC:/work/projects/grpc/build_windows_64 --check-stamp-file C:/work/projects/grpc/build_windows_64/third_party/re2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -150,9 +150,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTest.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestTargets.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CTestUseLaunchers.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\DartConfiguration.tcl.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(SolutionDir)..\build_windows_64\third_party\re2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/work/projects/grpc_alex/third_party/re2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/work/projects/grpc/third_party/re2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex -BC:/work/projects/grpc_alex/build_windows_64 --check-stamp-file C:/work/projects/grpc_alex/build_windows_64/third_party/re2/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc -BC:/work/projects/grpc/build_windows_64 --check-stamp-file C:/work/projects/grpc/build_windows_64/third_party/re2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -169,101 +169,101 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\ZERO_CHECK.vcxproj">
-      <Project>{6C2875A7-AAD8-3246-BAFF-03F446141D8D}</Project>
+      <Project>{B4DF8270-5E6A-33C3-B7E3-D3BA44DBEC29}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\charclass_test.vcxproj">
-      <Project>{4CE68C66-2A46-3955-85D8-C36C0D7FF58A}</Project>
+      <Project>{1795F54F-D87B-3F86-A6DE-AB465ADFA9D0}</Project>
       <Name>charclass_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\compile_test.vcxproj">
-      <Project>{F685DBEC-EEA7-347D-98AC-5E5231DB9810}</Project>
+      <Project>{82AD7D72-0DCA-3836-ABE8-54B4B12420BE}</Project>
       <Name>compile_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\dfa_test.vcxproj">
-      <Project>{7892CC94-8FB5-320B-8504-CC8D5037DB7A}</Project>
+      <Project>{FF5E056D-575F-3E73-B1C2-F1FB1CF40B50}</Project>
       <Name>dfa_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\exhaustive1_test.vcxproj">
-      <Project>{FD2FC14C-86E4-3256-84F5-813A454205FF}</Project>
+      <Project>{45A08FA3-8B48-3DA8-8702-F87794DEBDCA}</Project>
       <Name>exhaustive1_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\exhaustive2_test.vcxproj">
-      <Project>{39022A7F-2303-3BC5-8FB5-0FC12BA8A9F5}</Project>
+      <Project>{7470AB37-4A2A-3E41-88D4-1D62A22D4FD1}</Project>
       <Name>exhaustive2_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\exhaustive3_test.vcxproj">
-      <Project>{7F9A8391-B5F0-333D-ADF7-9E7FBB327594}</Project>
+      <Project>{245C2340-8059-3F86-9151-1D787095E30D}</Project>
       <Name>exhaustive3_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\exhaustive_test.vcxproj">
-      <Project>{4D92ABA0-C980-3EB9-AEDF-885CAB3F6D68}</Project>
+      <Project>{CAECFC11-7176-31AC-BD05-D7299A2A2C86}</Project>
       <Name>exhaustive_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\filtered_re2_test.vcxproj">
-      <Project>{6BFC218D-EC5A-38E6-99B1-FA56805BE563}</Project>
+      <Project>{60157AD7-272E-333B-B4A1-0283F27F44E3}</Project>
       <Name>filtered_re2_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\mimics_pcre_test.vcxproj">
-      <Project>{694512D4-F965-3170-99F7-F5C1BC4E03E0}</Project>
+      <Project>{37A83FE7-B9F7-38F5-AC75-240807B5D47A}</Project>
       <Name>mimics_pcre_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\parse_test.vcxproj">
-      <Project>{FFE5C82E-4415-3E41-A446-C7DC3F93599A}</Project>
+      <Project>{0DCF6887-4136-3709-9F4D-2511B330C69B}</Project>
       <Name>parse_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\possible_match_test.vcxproj">
-      <Project>{76743025-5A0C-3A52-8A6D-EF2520564557}</Project>
+      <Project>{C5A57E25-A1F0-3FF2-9A78-B1A7D3E0B990}</Project>
       <Name>possible_match_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\random_test.vcxproj">
-      <Project>{16C64477-4DBA-3C87-9986-82C92D56AC41}</Project>
+      <Project>{DD14F34F-F0D1-3C86-BCDE-BB9BF4480036}</Project>
       <Name>random_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\re2.vcxproj">
-      <Project>{2E3CB7E9-EC7C-371A-97D8-6D95D0D2132D}</Project>
+      <Project>{67AC53D1-28EF-33DF-AA54-F2F919A3CC10}</Project>
       <Name>re2</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\re2_arg_test.vcxproj">
-      <Project>{0F844188-65E6-3601-8B14-FB1594F4B700}</Project>
+      <Project>{2AFE22E7-4F2F-3C75-8291-36B0944B0D73}</Project>
       <Name>re2_arg_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\re2_test.vcxproj">
-      <Project>{75FF3DAD-E844-39AE-8DF4-0004EFE5A78E}</Project>
+      <Project>{20041D8D-3C16-37B9-9009-2B209282D44B}</Project>
       <Name>re2_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\regexp_benchmark.vcxproj">
-      <Project>{3184C34D-78AE-3AFF-BFAF-11DC4A62B062}</Project>
+      <Project>{7F92C962-34D2-3ADA-84C9-3C87CA947347}</Project>
       <Name>regexp_benchmark</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\regexp_test.vcxproj">
-      <Project>{6D1F0EE0-BC79-3451-A89C-95CFD467A082}</Project>
+      <Project>{DA8CBF84-33E2-318E-B0C9-A4F2D8482130}</Project>
       <Name>regexp_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\required_prefix_test.vcxproj">
-      <Project>{1B384D88-1451-301D-A3FF-80801D786710}</Project>
+      <Project>{FC0759AF-7439-3F7F-ACFD-8DEC7D37A42C}</Project>
       <Name>required_prefix_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\search_test.vcxproj">
-      <Project>{FD817C21-55D5-37D2-B9C0-3B09572209A9}</Project>
+      <Project>{A246240F-54A9-353C-A6EA-8674A0BAC38B}</Project>
       <Name>search_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\set_test.vcxproj">
-      <Project>{9FEB9F12-7774-3339-A355-ADC89224CDFA}</Project>
+      <Project>{5DD90683-0E65-3477-8ACF-36558F9998AD}</Project>
       <Name>set_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\simplify_test.vcxproj">
-      <Project>{BFE5F9C6-DFA7-38D3-B401-4BE14DFB1C2D}</Project>
+      <Project>{8E93D139-2A9E-3212-BADE-5FF99189EE5D}</Project>
       <Name>simplify_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\string_generator_test.vcxproj">
-      <Project>{773DB8AE-EF10-3C21-B694-68B2DA018E94}</Project>
+      <Project>{101043A7-EB7E-3852-8A8C-BD9F6C584C1B}</Project>
       <Name>string_generator_test</Name>
     </ProjectReference>
     <ProjectReference Include="$(SolutionDir)..\build_windows_64\third_party\re2\testing.vcxproj">
-      <Project>{C68E058E-C702-3D99-B46C-01F0D108B026}</Project>
+      <Project>{74252503-74D9-3847-8E55-859BFD7181F4}</Project>
       <Name>testing</Name>
     </ProjectReference>
   </ItemGroup>

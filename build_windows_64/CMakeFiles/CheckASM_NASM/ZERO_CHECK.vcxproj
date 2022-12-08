@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1C6EDB8D-BD65-37B0-A53C-5860F4FEC8EA}</ProjectGuid>
+    <ProjectGuid>{D7B53136-DA53-32E5-8E5E-E5BFB82C1DFC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -109,11 +109,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="$(SolutionDir)..\build_windows_64\CMakeFiles\CheckASM_NASM\CMakeFiles\c0dee5d4b2615d13c2bcbbeb946ff710\generate.stamp.rule">
+    <CustomBuild Include="$(SolutionDir)..\build_windows_64\CMakeFiles\CheckASM_NASM\CMakeFiles\7cc4872a1caf5b1ec7444a64fb852ae1\generate.stamp.rule">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CheckASM_NASM -BC:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CheckASM_NASM --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CheckASM_NASM/CheckASM_NASM.sln
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc/build_windows_64/CMakeFiles/CheckASM_NASM -BC:/work/projects/grpc/build_windows_64/CMakeFiles/CheckASM_NASM --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/work/projects/grpc/build_windows_64/CMakeFiles/CheckASM_NASM/CheckASM_NASM.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -126,7 +126,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CheckASM_NASM -BC:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CheckASM_NASM --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CheckASM_NASM/CheckASM_NASM.sln
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc/build_windows_64/CMakeFiles/CheckASM_NASM -BC:/work/projects/grpc/build_windows_64/CMakeFiles/CheckASM_NASM --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/work/projects/grpc/build_windows_64/CMakeFiles/CheckASM_NASM/CheckASM_NASM.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -139,7 +139,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CheckASM_NASM -BC:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CheckASM_NASM --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CheckASM_NASM/CheckASM_NASM.sln
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc/build_windows_64/CMakeFiles/CheckASM_NASM -BC:/work/projects/grpc/build_windows_64/CMakeFiles/CheckASM_NASM --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/work/projects/grpc/build_windows_64/CMakeFiles/CheckASM_NASM/CheckASM_NASM.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -152,7 +152,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CheckASM_NASM -BC:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CheckASM_NASM --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CheckASM_NASM/CheckASM_NASM.sln
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc/build_windows_64/CMakeFiles/CheckASM_NASM -BC:/work/projects/grpc/build_windows_64/CMakeFiles/CheckASM_NASM --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/work/projects/grpc/build_windows_64/CMakeFiles/CheckASM_NASM/CheckASM_NASM.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone

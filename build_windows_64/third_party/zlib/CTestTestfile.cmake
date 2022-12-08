@@ -1,8 +1,8 @@
 # CMake generated Testfile for 
-# Source directory: C:/work/projects/grpc_alex/third_party/zlib
-# Build directory: C:/work/projects/grpc_alex/build_windows_64/third_party/zlib
+# Source directory: C:/work/projects/grpc/third_party/zlib
+# Build directory: C:/work/projects/grpc/build_windows_64/third_party/zlib
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 add_test(example "example")
-set_tests_properties(example PROPERTIES  _BACKTRACE_TRIPLES "C:/work/projects/grpc_alex/third_party/zlib/CMakeLists.txt;199;add_test;C:/work/projects/grpc_alex/third_party/zlib/CMakeLists.txt;0;")
+set_tests_properties(example PROPERTIES  _BACKTRACE_TRIPLES "C:/work/projects/grpc/third_party/zlib/CMakeLists.txt;199;add_test;C:/work/projects/grpc/third_party/zlib/CMakeLists.txt;0;")

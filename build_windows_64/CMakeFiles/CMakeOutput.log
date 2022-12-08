@@ -7,8 +7,8 @@ Id flags:
 The output was:
 0
 MSBuild version 17.4.0+18d5aef85 for .NET Framework
-Build started 2022-12-06 15:53:43.
-Project "C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\3.24.202208181-MSVC_2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+Build started 2022-12-08 11:44:22.
+Project "C:\work\projects\grpc\build_windows_64\CMakeFiles\3.24.202208181-MSVC_2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdC.tlog\".
@@ -19,7 +19,7 @@ ClCompile:
   CMakeCCompilerId.c
 Link:
   C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\3.24.202208181-MSVC_2\CompilerIdC\CompilerIdC.exe
+  CompilerIdC.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\3.24.202208181-MSVC_2\CompilerIdC\CompilerIdC.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
@@ -27,7 +27,7 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Done Building Project "C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\3.24.202208181-MSVC_2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+Done Building Project "C:\work\projects\grpc\build_windows_64\CMakeFiles\3.24.202208181-MSVC_2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
@@ -40,7 +40,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/3.24.202208181-MSVC_2/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is MSVC, found in "C:/work/projects/grpc/build_windows_64/CMakeFiles/3.24.202208181-MSVC_2/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -50,8 +50,8 @@ Id flags:
 The output was:
 0
 MSBuild version 17.4.0+18d5aef85 for .NET Framework
-Build started 2022-12-06 15:53:44.
-Project "C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\3.24.202208181-MSVC_2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+Build started 2022-12-08 11:44:23.
+Project "C:\work\projects\grpc\build_windows_64\CMakeFiles\3.24.202208181-MSVC_2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
   Creating directory "Debug\CompilerIdCXX.tlog\".
@@ -62,7 +62,7 @@ ClCompile:
   CMakeCXXCompilerId.cpp
 Link:
   C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.34.31933\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\3.24.202208181-MSVC_2\CompilerIdCXX\CompilerIdCXX.exe
+  CompilerIdCXX.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\3.24.202208181-MSVC_2\CompilerIdCXX\CompilerIdCXX.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
@@ -70,282 +70,282 @@ PostBuildEvent:
 FinalizeBuildStatus:
   Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
   Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Done Building Project "C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\3.24.202208181-MSVC_2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+Done Building Project "C:\work\projects\grpc\build_windows_64\CMakeFiles\3.24.202208181-MSVC_2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.73
+Time Elapsed 00:00:00.62
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/3.24.202208181-MSVC_2/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "C:/work/projects/grpc/build_windows_64/CMakeFiles/3.24.202208181-MSVC_2/CompilerIdCXX/CompilerIdCXX.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3c0a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a6e6b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   CMakeCCompilerABI.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3c0a6.dir\Debug\\" /Fd"cmTC_3c0a6.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c"
-  cmTC_3c0a6.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_3c0a6.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a6e6b.dir\Debug\\" /Fd"cmTC_a6e6b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c"
+  cmTC_a6e6b.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_a6e6b.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8e094.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7866b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   CMakeCXXCompilerABI.cpp
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8e094.dir\Debug\\" /Fd"cmTC_8e094.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_8e094.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_8e094.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7866b.dir\Debug\\" /Fd"cmTC_7866b.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_7866b.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_7866b.exe
 
 
 
 Determining if files sys/types.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8e31b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c9cca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   HAVE_SYS_TYPES_H.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8e31b.dir\Debug\\" /Fd"cmTC_8e31b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c
-  cmTC_8e31b.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_8e31b.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9cca.dir\Debug\\" /Fd"cmTC_c9cca.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TYPES_H.c
+  cmTC_c9cca.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_c9cca.exe
 
 
 
 Determining if files assert.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_39229.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_70310.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39229.dir\Debug\\" /Fd"cmTC_39229.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_ASSERT_H.c
   HAVE_ASSERT_H.c
-  cmTC_39229.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_39229.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_70310.dir\Debug\\" /Fd"cmTC_70310.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_ASSERT_H.c
+  cmTC_70310.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_70310.exe
 
 
 
 Determining if files errno.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a715d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b5413.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   HAVE_ERRNO_H.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a715d.dir\Debug\\" /Fd"cmTC_a715d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c
-  cmTC_a715d.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_a715d.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5413.dir\Debug\\" /Fd"cmTC_b5413.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c
+  cmTC_b5413.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_b5413.exe
 
 
 
 Determining if files fcntl.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9930b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0b8ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   HAVE_FCNTL_H.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9930b.dir\Debug\\" /Fd"cmTC_9930b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_FCNTL_H.c
-  cmTC_9930b.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_9930b.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0b8ba.dir\Debug\\" /Fd"cmTC_0b8ba.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_FCNTL_H.c
+  cmTC_0b8ba.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_0b8ba.exe
 
 
 
 Determining if files inttypes.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1a13a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5aece.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   HAVE_INTTYPES_H.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1a13a.dir\Debug\\" /Fd"cmTC_1a13a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_INTTYPES_H.c
-  cmTC_1a13a.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_1a13a.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5aece.dir\Debug\\" /Fd"cmTC_5aece.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_INTTYPES_H.c
+  cmTC_5aece.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_5aece.exe
 
 
 
 Determining if files limits.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_537e1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2cf93.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   HAVE_LIMITS_H.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_537e1.dir\Debug\\" /Fd"cmTC_537e1.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_LIMITS_H.c
-  cmTC_537e1.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_537e1.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2cf93.dir\Debug\\" /Fd"cmTC_2cf93.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_LIMITS_H.c
+  cmTC_2cf93.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_2cf93.exe
 
 
 
 Determining if files malloc.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a92e7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a12a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   HAVE_MALLOC_H.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a92e7.dir\Debug\\" /Fd"cmTC_a92e7.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_MALLOC_H.c
-  cmTC_a92e7.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_a92e7.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a12a6.dir\Debug\\" /Fd"cmTC_a12a6.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_MALLOC_H.c
+  cmTC_a12a6.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_a12a6.exe
 
 
 
 Determining if files memory.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c4cb4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b644b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4cb4.dir\Debug\\" /Fd"cmTC_c4cb4.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_MEMORY_H.c
   HAVE_MEMORY_H.c
-  cmTC_c4cb4.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_c4cb4.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b644b.dir\Debug\\" /Fd"cmTC_b644b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_MEMORY_H.c
+  cmTC_b644b.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_b644b.exe
 
 
 
 Determining if files signal.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b766f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_829e2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b766f.dir\Debug\\" /Fd"cmTC_b766f.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_SIGNAL_H.c
   HAVE_SIGNAL_H.c
-  cmTC_b766f.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_b766f.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_829e2.dir\Debug\\" /Fd"cmTC_829e2.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_SIGNAL_H.c
+  cmTC_829e2.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_829e2.exe
 
 
 
 Determining if files stdbool.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b0cf1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_eca5a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0cf1.dir\Debug\\" /Fd"cmTC_b0cf1.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c
   HAVE_STDBOOL_H.c
-  cmTC_b0cf1.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_b0cf1.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eca5a.dir\Debug\\" /Fd"cmTC_eca5a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c
+  cmTC_eca5a.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_eca5a.exe
 
 
 
 Determining if files stdint.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6230e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d50ed.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   HAVE_STDINT_H.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6230e.dir\Debug\\" /Fd"cmTC_6230e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c
-  cmTC_6230e.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_6230e.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d50ed.dir\Debug\\" /Fd"cmTC_d50ed.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_STDINT_H.c
+  cmTC_d50ed.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_d50ed.exe
 
 
 
 Determining if files stdlib.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_75196.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_43255.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   HAVE_STDLIB_H.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_75196.dir\Debug\\" /Fd"cmTC_75196.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_STDLIB_H.c
-  cmTC_75196.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_75196.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43255.dir\Debug\\" /Fd"cmTC_43255.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_STDLIB_H.c
+  cmTC_43255.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_43255.exe
 
 
 
 Determining if files string.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2e18c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9e768.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e18c.dir\Debug\\" /Fd"cmTC_2e18c.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_STRING_H.c
   HAVE_STRING_H.c
-  cmTC_2e18c.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_2e18c.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e768.dir\Debug\\" /Fd"cmTC_9e768.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_STRING_H.c
+  cmTC_9e768.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_9e768.exe
 
 
 
 Determining if files sys/stat.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_890a8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_21574.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_890a8.dir\Debug\\" /Fd"cmTC_890a8.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_STAT_H.c
   HAVE_SYS_STAT_H.c
-  cmTC_890a8.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_890a8.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_21574.dir\Debug\\" /Fd"cmTC_21574.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_SYS_STAT_H.c
+  cmTC_21574.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_21574.exe
 
 
 
 Determining if files time.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_85463.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fe21f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85463.dir\Debug\\" /Fd"cmTC_85463.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_TIME_H.c
   HAVE_TIME_H.c
-  cmTC_85463.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_85463.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe21f.dir\Debug\\" /Fd"cmTC_fe21f.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_TIME_H.c
+  cmTC_fe21f.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_fe21f.exe
 
 
 
 Determining if files winsock2.h;windows.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f83f1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_52ab5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f83f1.dir\Debug\\" /Fd"cmTC_f83f1.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c
   HAVE_WINSOCK2_H.c
-  cmTC_f83f1.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_f83f1.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52ab5.dir\Debug\\" /Fd"cmTC_52ab5.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c
+  cmTC_52ab5.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_52ab5.exe
 
 
 
 Determining if files winsock2.h;ws2tcpip.h;windows.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e50f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_244cb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e50f5.dir\Debug\\" /Fd"cmTC_e50f5.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c
   HAVE_WS2TCPIP_H.c
-  cmTC_e50f5.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_e50f5.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_244cb.dir\Debug\\" /Fd"cmTC_244cb.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c
+  cmTC_244cb.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_244cb.exe
 
 
 
 Determining if files winsock.h;windows.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_72eb5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_83413.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   HAVE_WINSOCK_H.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72eb5.dir\Debug\\" /Fd"cmTC_72eb5.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK_H.c
-  cmTC_72eb5.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_72eb5.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_83413.dir\Debug\\" /Fd"cmTC_83413.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK_H.c
+  cmTC_83413.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_83413.exe
 
 
 
 Determining if files windows.h exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_87a98.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_efb16.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  HAVE_WINDOWS_H.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_87a98.dir\Debug\\" /Fd"cmTC_87a98.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c
-  cmTC_87a98.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_87a98.exe
+  HAVE_WINDOWS_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_efb16.dir\Debug\\" /Fd"cmTC_efb16.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c
+  cmTC_efb16.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_efb16.exe
 
 
 
 Performing C SOURCE FILE Test HAVE_SOCKLEN_T succeeded with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f8c72.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_16c8a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   src.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SOCKLEN_T /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8c72.dir\Debug\\" /Fd"cmTC_f8c72.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\src.c
-  cmTC_f8c72.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_f8c72.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SOCKLEN_T /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16c8a.dir\Debug\\" /Fd"cmTC_16c8a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\src.c
+  cmTC_16c8a.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_16c8a.exe
 
 
 Source file was:
@@ -370,14 +370,14 @@ Source file was:
 		}
 	
 Performing C SOURCE FILE Test HAVE_TYPE_SOCKET succeeded with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d2a44.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_39d0e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   src.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_TYPE_SOCKET /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d2a44.dir\Debug\\" /Fd"cmTC_d2a44.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\src.c
-  cmTC_d2a44.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_d2a44.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_TYPE_SOCKET /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39d0e.dir\Debug\\" /Fd"cmTC_39d0e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\src.c
+  cmTC_39d0e.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_39d0e.exe
 
 
 Source file was:
@@ -402,14 +402,14 @@ Source file was:
 		}
 	
 Performing C SOURCE FILE Test HAVE_BOOL_T succeeded with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b537a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_92332.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   src.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_BOOL_T /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b537a.dir\Debug\\" /Fd"cmTC_b537a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\src.c
-  cmTC_b537a.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_b537a.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_BOOL_T /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_92332.dir\Debug\\" /Fd"cmTC_92332.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\src.c
+  cmTC_92332.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_92332.exe
 
 
 Source file was:
@@ -434,14 +434,14 @@ Source file was:
 		}
 	
 Performing C SOURCE FILE Test HAVE_LONGLONG succeeded with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e6ef7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9d168.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   src.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_LONGLONG /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e6ef7.dir\Debug\\" /Fd"cmTC_e6ef7.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\src.c
-  cmTC_e6ef7.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_e6ef7.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_LONGLONG /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9d168.dir\Debug\\" /Fd"cmTC_9d168.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\src.c
+  cmTC_9d168.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_9d168.exe
 
 
 Source file was:
@@ -466,14 +466,14 @@ Source file was:
 		}
 	
 Performing C SOURCE FILE Test HAVE_SIG_ATOMIC_T succeeded with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fd93a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_858e8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   src.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SIG_ATOMIC_T /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fd93a.dir\Debug\\" /Fd"cmTC_fd93a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\src.c
-  cmTC_fd93a.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_fd93a.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SIG_ATOMIC_T /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_858e8.dir\Debug\\" /Fd"cmTC_858e8.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\src.c
+  cmTC_858e8.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_858e8.exe
 
 
 Source file was:
@@ -498,14 +498,14 @@ Source file was:
 		}
 	
 Performing C SOURCE FILE Test HAVE_STRUCT_ADDRINFO succeeded with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_103cc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5ef9a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   src.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STRUCT_ADDRINFO /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_103cc.dir\Debug\\" /Fd"cmTC_103cc.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\src.c
-  cmTC_103cc.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_103cc.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STRUCT_ADDRINFO /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ef9a.dir\Debug\\" /Fd"cmTC_5ef9a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\src.c
+  cmTC_5ef9a.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_5ef9a.exe
 
 
 Source file was:
@@ -530,14 +530,14 @@ Source file was:
 		}
 	
 Performing C SOURCE FILE Test HAVE_STRUCT_IN6_ADDR succeeded with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6a93d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_822d0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   src.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STRUCT_IN6_ADDR /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a93d.dir\Debug\\" /Fd"cmTC_6a93d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\src.c
-  cmTC_6a93d.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_6a93d.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STRUCT_IN6_ADDR /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_822d0.dir\Debug\\" /Fd"cmTC_822d0.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\src.c
+  cmTC_822d0.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_822d0.exe
 
 
 Source file was:
@@ -562,14 +562,14 @@ Source file was:
 		}
 	
 Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_IN6 succeeded with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_743ec.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f7724.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   src.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STRUCT_SOCKADDR_IN6 /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_743ec.dir\Debug\\" /Fd"cmTC_743ec.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\src.c
-  cmTC_743ec.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_743ec.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STRUCT_SOCKADDR_IN6 /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f7724.dir\Debug\\" /Fd"cmTC_f7724.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\src.c
+  cmTC_f7724.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_f7724.exe
 
 
 Source file was:
@@ -594,14 +594,14 @@ Source file was:
 		}
 	
 Performing C SOURCE FILE Test HAVE_STRUCT_SOCKADDR_STORAGE succeeded with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_cd21c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_09f26.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   src.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STRUCT_SOCKADDR_STORAGE /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd21c.dir\Debug\\" /Fd"cmTC_cd21c.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\src.c
-  cmTC_cd21c.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_cd21c.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STRUCT_SOCKADDR_STORAGE /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_09f26.dir\Debug\\" /Fd"cmTC_09f26.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\src.c
+  cmTC_09f26.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_09f26.exe
 
 
 Source file was:
@@ -626,14 +626,14 @@ Source file was:
 		}
 	
 Performing C SOURCE FILE Test HAVE_STRUCT_TIMEVAL succeeded with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2b133.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_32d43.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   src.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STRUCT_TIMEVAL /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2b133.dir\Debug\\" /Fd"cmTC_2b133.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\src.c
-  cmTC_2b133.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_2b133.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STRUCT_TIMEVAL /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32d43.dir\Debug\\" /Fd"cmTC_32d43.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\src.c
+  cmTC_32d43.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_32d43.exe
 
 
 Source file was:
@@ -658,17 +658,17 @@ Source file was:
 		}
 	
 Determining if the AF_INET6 exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_65e9d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4dcf0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_65e9d.dir\Debug\\" /Fd"cmTC_65e9d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_65e9d.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_65e9d.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4dcf0.dir\Debug\\" /Fd"cmTC_4dcf0.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_4dcf0.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_4dcf0.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -692,17 +692,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the FIONBIO exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_621c4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7d026.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_621c4.dir\Debug\\" /Fd"cmTC_621c4.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-  cmTC_621c4.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_621c4.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7d026.dir\Debug\\" /Fd"cmTC_7d026.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_7d026.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_7d026.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -726,17 +726,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the PF_INET6 exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_27480.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_02081.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27480.dir\Debug\\" /Fd"cmTC_27480.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_27480.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_27480.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02081.dir\Debug\\" /Fd"cmTC_02081.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_02081.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_02081.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -760,14 +760,14 @@ int main(int argc, char** argv)
 #endif
 }
 Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID succeeded with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d2024.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0719a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d2024.dir\Debug\\" /Fd"cmTC_d2024.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\src.c
   src.c
-  cmTC_d2024.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_d2024.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0719a.dir\Debug\\" /Fd"cmTC_0719a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\src.c
+  cmTC_0719a.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_0719a.exe
 
 
 Source file was:
@@ -790,30 +790,30 @@ int main()
 }
 
 Performing C SOURCE FILE Test HAVE_LL succeeded with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_20f99.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f9a8e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_LL /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_20f99.dir\Debug\\" /Fd"cmTC_20f99.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\src.c
   src.c
-  cmTC_20f99.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_20f99.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_LL /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f9a8e.dir\Debug\\" /Fd"cmTC_f9a8e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\src.c
+  cmTC_f9a8e.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_f9a8e.exe
 
 
 Source file was:
 int main() { int n=1234LL; return 0; }
 Determining if the closesocket exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_31c85.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9210c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_31c85.dir\Debug\\" /Fd"cmTC_31c85.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_31c85.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_31c85.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9210c.dir\Debug\\" /Fd"cmTC_9210c.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_9210c.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_9210c.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -837,17 +837,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the connect exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bbca2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_426ec.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bbca2.dir\Debug\\" /Fd"cmTC_bbca2.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_bbca2.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_bbca2.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_426ec.dir\Debug\\" /Fd"cmTC_426ec.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_426ec.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_426ec.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -871,17 +871,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the freeaddrinfo exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8ce25.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c7eba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8ce25.dir\Debug\\" /Fd"cmTC_8ce25.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_8ce25.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_8ce25.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c7eba.dir\Debug\\" /Fd"cmTC_c7eba.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_c7eba.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_c7eba.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -905,17 +905,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the getaddrinfo exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_80a21.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e018a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_80a21.dir\Debug\\" /Fd"cmTC_80a21.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_80a21.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_80a21.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e018a.dir\Debug\\" /Fd"cmTC_e018a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_e018a.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_e018a.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -939,17 +939,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the getenv exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6a649.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4212b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a649.dir\Debug\\" /Fd"cmTC_6a649.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_6a649.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_6a649.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4212b.dir\Debug\\" /Fd"cmTC_4212b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_4212b.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_4212b.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -973,17 +973,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the gethostbyaddr exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2a4d0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dadcc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2a4d0.dir\Debug\\" /Fd"cmTC_2a4d0.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-  cmTC_2a4d0.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_2a4d0.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dadcc.dir\Debug\\" /Fd"cmTC_dadcc.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_dadcc.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_dadcc.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1007,17 +1007,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the gethostbyname exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fc81c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2cd05.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc81c.dir\Debug\\" /Fd"cmTC_fc81c.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_fc81c.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_fc81c.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2cd05.dir\Debug\\" /Fd"cmTC_2cd05.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_2cd05.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_2cd05.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1041,17 +1041,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the gethostname exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c21aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2e7fc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c21aa.dir\Debug\\" /Fd"cmTC_c21aa.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-  cmTC_c21aa.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_c21aa.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e7fc.dir\Debug\\" /Fd"cmTC_2e7fc.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_2e7fc.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_2e7fc.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1075,17 +1075,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the getnameinfo exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2f785.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7f0d4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
   CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f785.dir\Debug\\" /Fd"cmTC_2f785.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-  cmTC_2f785.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_2f785.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f0d4.dir\Debug\\" /Fd"cmTC_7f0d4.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_7f0d4.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_7f0d4.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1109,17 +1109,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the ioctlsocket exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_178e4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_63373.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_178e4.dir\Debug\\" /Fd"cmTC_178e4.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_178e4.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_178e4.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_63373.dir\Debug\\" /Fd"cmTC_63373.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_63373.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_63373.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1143,17 +1143,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the recv exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c8323.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d614f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c8323.dir\Debug\\" /Fd"cmTC_c8323.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_c8323.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_c8323.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d614f.dir\Debug\\" /Fd"cmTC_d614f.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_d614f.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_d614f.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1177,17 +1177,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the recvfrom exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_45bd6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_27f49.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45bd6.dir\Debug\\" /Fd"cmTC_45bd6.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_45bd6.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_45bd6.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27f49.dir\Debug\\" /Fd"cmTC_27f49.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_27f49.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_27f49.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1211,17 +1211,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the send exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1a91c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2d8a9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1a91c.dir\Debug\\" /Fd"cmTC_1a91c.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_1a91c.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_1a91c.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2d8a9.dir\Debug\\" /Fd"cmTC_2d8a9.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_2d8a9.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_2d8a9.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1245,17 +1245,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the setsockopt exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_716d0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7b34f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_716d0.dir\Debug\\" /Fd"cmTC_716d0.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_716d0.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_716d0.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7b34f.dir\Debug\\" /Fd"cmTC_7b34f.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_7b34f.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_7b34f.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1279,17 +1279,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the socket exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f80e1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fb47f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f80e1.dir\Debug\\" /Fd"cmTC_f80e1.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_f80e1.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_f80e1.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb47f.dir\Debug\\" /Fd"cmTC_fb47f.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_fb47f.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_fb47f.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1313,17 +1313,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the strcmpi exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c2c84.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bface.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c2c84.dir\Debug\\" /Fd"cmTC_c2c84.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_c2c84.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_c2c84.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bface.dir\Debug\\" /Fd"cmTC_bface.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_bface.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_bface.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1347,17 +1347,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the strdup exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6d102.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c9886.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d102.dir\Debug\\" /Fd"cmTC_6d102.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_6d102.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_6d102.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9886.dir\Debug\\" /Fd"cmTC_c9886.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_c9886.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_c9886.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1381,17 +1381,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the stricmp exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_afc7e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9a9e5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_afc7e.dir\Debug\\" /Fd"cmTC_afc7e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_afc7e.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_afc7e.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9a9e5.dir\Debug\\" /Fd"cmTC_9a9e5.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_9a9e5.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_9a9e5.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1415,17 +1415,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the strnicmp exist passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_93230.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e9106.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93230.dir\Debug\\" /Fd"cmTC_93230.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
   CheckSymbolExists.c
-  cmTC_93230.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_93230.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9106.dir\Debug\\" /Fd"cmTC_e9106.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  cmTC_e9106.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_e9106.exe
 
 
-File C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1454,19 +1454,19 @@ Looking for a ASM_NASM compiler passed with the following output:
 -- Found assembler: C:/NASM/nasm.exe
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CheckASM_NASM
+-- Build files have been written to: C:/work/projects/grpc/build_windows_64/CMakeFiles/CheckASM_NASM
 
 Checking whether the ASM_NASM compiler is NASM using "-v" matched "(NASM version)":
 NASM version 2.14.02 compiled on Dec 26 2018
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_64/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4e8f5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ae5ca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x64
-  Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4e8f5.dir\Debug\\" /Fd"cmTC_4e8f5.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\CheckIncludeFile.c
   CheckIncludeFile.c
-  cmTC_4e8f5.vcxproj -> C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_4e8f5.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae5ca.dir\Debug\\" /Fd"cmTC_ae5ca.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  cmTC_ae5ca.vcxproj -> C:\work\projects\grpc\build_windows_64\CMakeFiles\CMakeTmp\Debug\cmTC_ae5ca.exe
 
 
 

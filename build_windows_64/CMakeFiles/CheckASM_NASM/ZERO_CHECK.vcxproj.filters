@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\work\projects\grpc_alex\build_windows_64\CMakeFiles\CheckASM_NASM\CMakeFiles\c0dee5d4b2615d13c2bcbbeb946ff710\generate.stamp.rule">
+    <CustomBuild Include="C:\work\projects\grpc\build_windows_64\CMakeFiles\CheckASM_NASM\CMakeFiles\7cc4872a1caf5b1ec7444a64fb852ae1\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{0BFFFEE2-BCEB-3E31-A73B-96E7A42E3DCD}</UniqueIdentifier>
+      <UniqueIdentifier>{34FC316D-6E26-3700-B99E-C449E8300E94}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

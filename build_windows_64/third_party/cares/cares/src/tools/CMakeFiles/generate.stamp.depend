@@ -1,4 +1,4 @@
 # CMake generation dependency list for this directory.
-C:/work/projects/grpc_alex/build_windows_64/third_party/cares/cares/src/tools/Makefile.inc.cmake
-C:/work/projects/grpc_alex/third_party/cares/cares/src/tools/CMakeLists.txt
+C:/work/projects/grpc/build_windows_64/third_party/cares/cares/src/tools/Makefile.inc.cmake
+C:/work/projects/grpc/third_party/cares/cares/src/tools/CMakeLists.txt
 C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in

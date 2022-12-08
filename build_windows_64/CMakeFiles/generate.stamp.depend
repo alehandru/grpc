@@ -97,25 +97,25 @@ C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExt
 C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/Platform/Windows.cmake
 C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake
 C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/WriteBasicConfigVersionFile.cmake
-C:/work/projects/grpc_alex/CMakeLists.txt
-C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/3.24.202208181-MSVC_2/CMakeCCompiler.cmake
-C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/3.24.202208181-MSVC_2/CMakeCXXCompiler.cmake
-C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/3.24.202208181-MSVC_2/CMakeRCCompiler.cmake
-C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/3.24.202208181-MSVC_2/CMakeSystem.cmake
-C:/work/projects/grpc_alex/build_windows_64/CMakeFiles/CheckASM_NASM/result.cmake
-C:/work/projects/grpc_alex/cmake/abseil-cpp.cmake
-C:/work/projects/grpc_alex/cmake/address_sorting.cmake
-C:/work/projects/grpc_alex/cmake/benchmark.cmake
-C:/work/projects/grpc_alex/cmake/cares.cmake
-C:/work/projects/grpc_alex/cmake/ccache.cmake
-C:/work/projects/grpc_alex/cmake/download_archive.cmake
-C:/work/projects/grpc_alex/cmake/gRPCConfig.cmake.in
-C:/work/projects/grpc_alex/cmake/msvc_static_runtime.cmake
-C:/work/projects/grpc_alex/cmake/pkg-config-template.pc.in
-C:/work/projects/grpc_alex/cmake/protobuf.cmake
-C:/work/projects/grpc_alex/cmake/re2.cmake
-C:/work/projects/grpc_alex/cmake/ssl.cmake
-C:/work/projects/grpc_alex/cmake/upb.cmake
-C:/work/projects/grpc_alex/cmake/xxhash.cmake
-C:/work/projects/grpc_alex/cmake/zlib.cmake
+C:/work/projects/grpc/CMakeLists.txt
+C:/work/projects/grpc/build_windows_64/CMakeFiles/3.24.202208181-MSVC_2/CMakeCCompiler.cmake
+C:/work/projects/grpc/build_windows_64/CMakeFiles/3.24.202208181-MSVC_2/CMakeCXXCompiler.cmake
+C:/work/projects/grpc/build_windows_64/CMakeFiles/3.24.202208181-MSVC_2/CMakeRCCompiler.cmake
+C:/work/projects/grpc/build_windows_64/CMakeFiles/3.24.202208181-MSVC_2/CMakeSystem.cmake
+C:/work/projects/grpc/build_windows_64/CMakeFiles/CheckASM_NASM/result.cmake
+C:/work/projects/grpc/cmake/abseil-cpp.cmake
+C:/work/projects/grpc/cmake/address_sorting.cmake
+C:/work/projects/grpc/cmake/benchmark.cmake
+C:/work/projects/grpc/cmake/cares.cmake
+C:/work/projects/grpc/cmake/ccache.cmake
+C:/work/projects/grpc/cmake/download_archive.cmake
+C:/work/projects/grpc/cmake/gRPCConfig.cmake.in
+C:/work/projects/grpc/cmake/msvc_static_runtime.cmake
+C:/work/projects/grpc/cmake/pkg-config-template.pc.in
+C:/work/projects/grpc/cmake/protobuf.cmake
+C:/work/projects/grpc/cmake/re2.cmake
+C:/work/projects/grpc/cmake/ssl.cmake
+C:/work/projects/grpc/cmake/upb.cmake
+C:/work/projects/grpc/cmake/xxhash.cmake
+C:/work/projects/grpc/cmake/zlib.cmake
 C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in

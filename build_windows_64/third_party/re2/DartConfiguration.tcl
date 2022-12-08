@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/work/projects/grpc_alex/third_party/re2
-BuildDirectory: C:/work/projects/grpc_alex/build_windows_64/third_party/re2
+SourceDirectory: C:/work/projects/grpc/third_party/re2
+BuildDirectory: C:/work/projects/grpc/build_windows_64/third_party/re2
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "C:/work/projects/grpc_alex/third_party/re2"
+ConfigureCommand: "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "C:/work/projects/grpc/third_party/re2"
 MakeCommand: "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

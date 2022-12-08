@@ -1,4 +1,4 @@
-# Install script for directory: C:/work/projects/grpc_alex/third_party/abseil-cpp/absl/functional
+# Install script for directory: C:/work/projects/grpc/third_party/abseil-cpp/absl/functional
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,14 +33,14 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/work/projects/grpc_alex/build_windows_64/lib/pkgconfig/absl_any_invocable.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/work/projects/grpc/build_windows_64/lib/pkgconfig/absl_any_invocable.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/work/projects/grpc_alex/build_windows_64/lib/pkgconfig/absl_bind_front.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/work/projects/grpc/build_windows_64/lib/pkgconfig/absl_bind_front.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/work/projects/grpc_alex/build_windows_64/lib/pkgconfig/absl_function_ref.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/work/projects/grpc/build_windows_64/lib/pkgconfig/absl_function_ref.pc")
 endif()
 

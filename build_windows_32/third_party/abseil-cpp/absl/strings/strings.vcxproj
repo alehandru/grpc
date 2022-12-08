@@ -52,7 +52,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
-    <Import Project="$(SolutionDir)..\build_windows_32\third_party\abseil-cpp\absl\strings\strings.dir\nasm.props" />
+    <Import Project="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\strings.dir\nasm.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -60,26 +60,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)..\build_windows_32\third_party\abseil-cpp\absl\strings\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">strings.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">absl_strings</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)..\build_windows_32\third_party\abseil-cpp\absl\strings\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">strings.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">absl_strings</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)..\build_windows_32\third_party\abseil-cpp\absl\strings\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">strings.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">absl_strings</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)..\build_windows_32\third_party\abseil-cpp\absl\strings\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">strings.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">absl_strings</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8 /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -99,15 +99,15 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NOMINMAX;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_WIN32_WINNT=0x600;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <NASM>
-      <IncludePaths>$(SolutionDir)..\third_party\abseil-cpp\;%(IncludePaths)</IncludePaths>
+      <IncludePaths>C:\work\projects\grpc_alex\third_party\abseil-cpp\;%(IncludePaths)</IncludePaths>
       <AdditionalOptions>-f</AdditionalOptions>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NOMINMAX;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_WIN32_WINNT=0x600;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR="Debug";</PreprocessorDefinitions>
     </NASM>
     <Midl>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -120,7 +120,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8 /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4065;4506;4200;4291;4244;4267;4987;4774;4819;4996;4619;4503;4005;4068;4180;4244;4267;4503;4800</DisableSpecificWarnings>
@@ -140,15 +140,15 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_WIN32_WINNT=0x600;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <NASM>
-      <IncludePaths>$(SolutionDir)..\third_party\abseil-cpp\;%(IncludePaths)</IncludePaths>
+      <IncludePaths>C:\work\projects\grpc_alex\third_party\abseil-cpp\;%(IncludePaths)</IncludePaths>
       <AdditionalOptions>-f</AdditionalOptions>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_WIN32_WINNT=0x600;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR="Release";</PreprocessorDefinitions>
     </NASM>
     <Midl>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -161,7 +161,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8 /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4065;4506;4200;4291;4244;4267;4987;4774;4819;4996;4619;4503;4005;4068;4180;4244;4267;4503;4800</DisableSpecificWarnings>
@@ -181,15 +181,15 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_WIN32_WINNT=0x600;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <NASM>
-      <IncludePaths>$(SolutionDir)..\third_party\abseil-cpp\;%(IncludePaths)</IncludePaths>
+      <IncludePaths>C:\work\projects\grpc_alex\third_party\abseil-cpp\;%(IncludePaths)</IncludePaths>
       <AdditionalOptions>-f</AdditionalOptions>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_WIN32_WINNT=0x600;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";</PreprocessorDefinitions>
     </NASM>
     <Midl>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -202,7 +202,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8 /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -221,15 +221,15 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_WIN32_WINNT=0x600;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <NASM>
-      <IncludePaths>$(SolutionDir)..\third_party\abseil-cpp\;%(IncludePaths)</IncludePaths>
+      <IncludePaths>C:\work\projects\grpc_alex\third_party\abseil-cpp\;%(IncludePaths)</IncludePaths>
       <AdditionalOptions>-f</AdditionalOptions>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NOMINMAX;WIN32_LEAN_AND_MEAN;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;_ENABLE_EXTENDED_ALIGNED_STORAGE;_WIN32_WINNT=0x600;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";</PreprocessorDefinitions>
     </NASM>
     <Midl>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\third_party\abseil-cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -241,7 +241,7 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\CMakeLists.txt">
+    <CustomBuild Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/work/projects/grpc_alex/third_party/abseil-cpp/absl/strings/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
@@ -254,7 +254,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)..\build_windows_32\third_party\abseil-cpp\absl\strings\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/work/projects/grpc_alex/third_party/abseil-cpp/absl/strings/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
@@ -267,7 +267,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)..\build_windows_32\third_party\abseil-cpp\absl\strings\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/work/projects/grpc_alex/third_party/abseil-cpp/absl/strings/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
@@ -280,7 +280,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)..\build_windows_32\third_party\abseil-cpp\absl\strings\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/work/projects/grpc_alex/third_party/abseil-cpp/absl/strings/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
@@ -293,76 +293,76 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)..\build_windows_32\third_party\abseil-cpp\absl\strings\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\ascii.cc" />
-    <ClCompile Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\charconv.cc" />
-    <ClCompile Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\escaping.cc" />
-    <ClCompile Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\internal\charconv_bigint.cc" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\internal\charconv_bigint.h" />
-    <ClCompile Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\internal\charconv_parse.cc" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\internal\charconv_parse.h" />
-    <ClCompile Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\internal\memutil.cc" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\internal\memutil.h" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\internal\stl_type_traits.h" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\internal\str_join_internal.h" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\internal\str_split_internal.h" />
-    <ClCompile Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\match.cc" />
-    <ClCompile Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\numbers.cc" />
-    <ClCompile Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\str_cat.cc" />
-    <ClCompile Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\str_replace.cc" />
-    <ClCompile Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\str_split.cc" />
-    <ClCompile Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\string_view.cc" />
-    <ClCompile Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\substitute.cc" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\ascii.h" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\charconv.h" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\escaping.h" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\internal\string_constant.h" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\match.h" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\numbers.h" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\str_cat.h" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\str_join.h" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\str_replace.h" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\str_split.h" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\string_view.h" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\strip.h" />
-    <ClInclude Include="$(SolutionDir)..\third_party\abseil-cpp\absl\strings\substitute.h" />
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\ascii.cc" />
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\charconv.cc" />
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\escaping.cc" />
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\charconv_bigint.cc" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\charconv_bigint.h" />
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\charconv_parse.cc" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\charconv_parse.h" />
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\memutil.cc" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\memutil.h" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\stl_type_traits.h" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\str_join_internal.h" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\str_split_internal.h" />
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\match.cc" />
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\numbers.cc" />
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\str_cat.cc" />
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\str_replace.cc" />
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\str_split.cc" />
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\string_view.cc" />
+    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\substitute.cc" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\ascii.h" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\charconv.h" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\escaping.h" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\internal\string_constant.h" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\match.h" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\numbers.h" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\str_cat.h" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\str_join.h" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\str_replace.h" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\str_split.h" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\string_view.h" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\strip.h" />
+    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\strings\substitute.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="$(SolutionDir)..\build_windows_32\ZERO_CHECK.vcxproj">
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\ZERO_CHECK.vcxproj">
       <Project>{14C081F1-D45E-3AE0-AF48-6A4B93D27FDA}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="$(SolutionDir)..\build_windows_32\third_party\abseil-cpp\absl\base\base.vcxproj">
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\base\base.vcxproj">
       <Project>{0095BB24-3280-3025-857D-E61E3CDF1A0B}</Project>
       <Name>base</Name>
     </ProjectReference>
-    <ProjectReference Include="$(SolutionDir)..\build_windows_32\third_party\abseil-cpp\absl\numeric\int128.vcxproj">
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\numeric\int128.vcxproj">
       <Project>{248BEF77-EDA3-3F2C-A739-5B128691B079}</Project>
       <Name>int128</Name>
     </ProjectReference>
-    <ProjectReference Include="$(SolutionDir)..\build_windows_32\third_party\abseil-cpp\absl\base\log_severity.vcxproj">
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\base\log_severity.vcxproj">
       <Project>{0A1E6DF5-0B08-3FF7-A57F-336B1CB93840}</Project>
       <Name>log_severity</Name>
     </ProjectReference>
-    <ProjectReference Include="$(SolutionDir)..\build_windows_32\third_party\abseil-cpp\absl\base\raw_logging_internal.vcxproj">
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\base\raw_logging_internal.vcxproj">
       <Project>{11EA7834-F37B-386E-882F-A1D5EDDDE43F}</Project>
       <Name>raw_logging_internal</Name>
     </ProjectReference>
-    <ProjectReference Include="$(SolutionDir)..\build_windows_32\third_party\abseil-cpp\absl\base\spinlock_wait.vcxproj">
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\base\spinlock_wait.vcxproj">
       <Project>{8232B44F-9423-3C99-8C84-F030E8A6D0D9}</Project>
       <Name>spinlock_wait</Name>
     </ProjectReference>
-    <ProjectReference Include="$(SolutionDir)..\build_windows_32\third_party\abseil-cpp\absl\strings\strings_internal.vcxproj">
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\strings\strings_internal.vcxproj">
       <Project>{346C575B-E415-3B54-85D0-D6FB55660D40}</Project>
       <Name>strings_internal</Name>
     </ProjectReference>
-    <ProjectReference Include="$(SolutionDir)..\build_windows_32\third_party\abseil-cpp\absl\base\throw_delegate.vcxproj">
+    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\abseil-cpp\absl\base\throw_delegate.vcxproj">
       <Project>{4EF533A1-CE97-34E5-A547-A43F354FD964}</Project>
       <Name>throw_delegate</Name>
     </ProjectReference>

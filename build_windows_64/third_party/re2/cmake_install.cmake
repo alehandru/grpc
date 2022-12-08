@@ -1,4 +1,4 @@
-# Install script for directory: C:/work/projects/grpc_alex/third_party/re2
+# Install script for directory: C:/work/projects/grpc/third_party/re2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,22 +34,22 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/re2" TYPE FILE FILES
-    "C:/work/projects/grpc_alex/third_party/re2/re2/filtered_re2.h"
-    "C:/work/projects/grpc_alex/third_party/re2/re2/re2.h"
-    "C:/work/projects/grpc_alex/third_party/re2/re2/set.h"
-    "C:/work/projects/grpc_alex/third_party/re2/re2/stringpiece.h"
+    "C:/work/projects/grpc/third_party/re2/re2/filtered_re2.h"
+    "C:/work/projects/grpc/third_party/re2/re2/re2.h"
+    "C:/work/projects/grpc/third_party/re2/re2/set.h"
+    "C:/work/projects/grpc/third_party/re2/re2/stringpiece.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/work/projects/grpc_alex/build_windows_64/third_party/re2/Debug/re2.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/work/projects/grpc/build_windows_64/third_party/re2/Debug/re2.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/work/projects/grpc_alex/build_windows_64/third_party/re2/Release/re2.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/work/projects/grpc/build_windows_64/third_party/re2/Release/re2.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/work/projects/grpc_alex/build_windows_64/third_party/re2/MinSizeRel/re2.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/work/projects/grpc/build_windows_64/third_party/re2/MinSizeRel/re2.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/work/projects/grpc_alex/build_windows_64/third_party/re2/RelWithDebInfo/re2.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/work/projects/grpc/build_windows_64/third_party/re2/RelWithDebInfo/re2.lib")
   endif()
 endif()
 
@@ -57,7 +57,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/re2/re2Config.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/re2/re2Config.cmake"
-         "C:/work/projects/grpc_alex/build_windows_64/third_party/re2/CMakeFiles/Export/2163157bb4e691faa63e00f4fb3aeb7d/re2Config.cmake")
+         "C:/work/projects/grpc/build_windows_64/third_party/re2/CMakeFiles/Export/2163157bb4e691faa63e00f4fb3aeb7d/re2Config.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/re2/re2Config-*.cmake")
       if(_cmake_old_config_files)
@@ -70,18 +70,18 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/re2" TYPE FILE FILES "C:/work/projects/grpc_alex/build_windows_64/third_party/re2/CMakeFiles/Export/2163157bb4e691faa63e00f4fb3aeb7d/re2Config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/re2" TYPE FILE FILES "C:/work/projects/grpc/build_windows_64/third_party/re2/CMakeFiles/Export/2163157bb4e691faa63e00f4fb3aeb7d/re2Config.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/re2" TYPE FILE FILES "C:/work/projects/grpc_alex/build_windows_64/third_party/re2/CMakeFiles/Export/2163157bb4e691faa63e00f4fb3aeb7d/re2Config-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/re2" TYPE FILE FILES "C:/work/projects/grpc/build_windows_64/third_party/re2/CMakeFiles/Export/2163157bb4e691faa63e00f4fb3aeb7d/re2Config-debug.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/re2" TYPE FILE FILES "C:/work/projects/grpc_alex/build_windows_64/third_party/re2/CMakeFiles/Export/2163157bb4e691faa63e00f4fb3aeb7d/re2Config-minsizerel.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/re2" TYPE FILE FILES "C:/work/projects/grpc/build_windows_64/third_party/re2/CMakeFiles/Export/2163157bb4e691faa63e00f4fb3aeb7d/re2Config-minsizerel.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/re2" TYPE FILE FILES "C:/work/projects/grpc_alex/build_windows_64/third_party/re2/CMakeFiles/Export/2163157bb4e691faa63e00f4fb3aeb7d/re2Config-relwithdebinfo.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/re2" TYPE FILE FILES "C:/work/projects/grpc/build_windows_64/third_party/re2/CMakeFiles/Export/2163157bb4e691faa63e00f4fb3aeb7d/re2Config-relwithdebinfo.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/re2" TYPE FILE FILES "C:/work/projects/grpc_alex/build_windows_64/third_party/re2/CMakeFiles/Export/2163157bb4e691faa63e00f4fb3aeb7d/re2Config-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/re2" TYPE FILE FILES "C:/work/projects/grpc/build_windows_64/third_party/re2/CMakeFiles/Export/2163157bb4e691faa63e00f4fb3aeb7d/re2Config-release.cmake")
   endif()
 endif()
 
