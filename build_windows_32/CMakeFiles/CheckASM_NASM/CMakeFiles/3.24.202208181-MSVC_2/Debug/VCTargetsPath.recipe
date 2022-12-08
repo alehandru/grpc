@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckASM_NASM\CMakeFiles\3.24.202208181-MSVC_2\Debug\VCTargetsPath</FullPath>
+      <FullPath>C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckASM_NASM\CMakeFiles\3.24.202208181-MSVC_2\Debug\VCTargetsPath</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -1,4 +1,4 @@
-# Install script for directory: C:/work/projects/grpc_alex/third_party/cares/cares/src
+# Install script for directory: C:/work/projects/grpc/third_party/cares/cares/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/work/projects/grpc_alex/build_windows_32/third_party/cares/cares/src/lib/cmake_install.cmake")
-  include("C:/work/projects/grpc_alex/build_windows_32/third_party/cares/cares/src/tools/cmake_install.cmake")
+  include("C:/work/projects/grpc/build_windows_32/third_party/cares/cares/src/lib/cmake_install.cmake")
+  include("C:/work/projects/grpc/build_windows_32/third_party/cares/cares/src/tools/cmake_install.cmake")
 
 endif()
 

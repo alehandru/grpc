@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\container\internal\raw_hash_set.cc">
+    <ClCompile Include="C:\work\projects\grpc\third_party\abseil-cpp\absl\container\internal\raw_hash_set.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\container\internal\raw_hash_set.h">
+    <ClInclude Include="C:\work\projects\grpc\third_party\abseil-cpp\absl\container\internal\raw_hash_set.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\work\projects\grpc_alex\third_party\abseil-cpp\absl\container\CMakeLists.txt" />
+    <CustomBuild Include="C:\work\projects\grpc\third_party\abseil-cpp\absl\container\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{4C10699D-640A-3531-9C14-F4AF4A3F511C}</UniqueIdentifier>
+      <UniqueIdentifier>{37C37A5C-4C01-335C-9A62-B872547C5030}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{97C9B03B-46B3-3AF3-A83E-BF556B363ED3}</UniqueIdentifier>
+      <UniqueIdentifier>{CE928D61-0FDB-37DA-962B-2CBA15C25FF5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

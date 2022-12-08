@@ -1,4 +1,4 @@
-# Install script for directory: C:/work/projects/grpc_alex/third_party/boringssl-with-bazel
+# Install script for directory: C:/work/projects/grpc/third_party/boringssl-with-bazel
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

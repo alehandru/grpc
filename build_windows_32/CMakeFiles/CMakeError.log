@@ -1,12 +1,12 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_feb64.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4ec8d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  src.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_feb64.dir\Debug\\" /Fd"cmTC_feb64.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\src.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_feb64.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4ec8d.dir\Debug\\" /Fd"cmTC_4ec8d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\src.c
+  src.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_4ec8d.vcxproj]
 
 
 Source file was:
@@ -31,150 +31,150 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_07301.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_75e22.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   CheckFunctionExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_07301.dir\Debug\\" /Fd"cmTC_07301.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
-LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_07301.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_75e22.dir\Debug\\" /Fd"cmTC_75e22.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_75e22.vcxproj]
 
 
 
 Determining if the function pthread_create exists in the pthread failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_446de.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2e10b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckFunctionExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_446de.dir\Debug\\" /Fd"cmTC_446de.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
-LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_446de.vcxproj]
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e10b.dir\Debug\\" /Fd"cmTC_2e10b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_2e10b.vcxproj]
 
 
 
 Determining if the function res_servicename exists failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c3043.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f0301.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   CheckFunctionExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=res_servicename /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3043.dir\Debug\\" /Fd"cmTC_c3043.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
-CheckFunctionExists.obj : error LNK2019: unresolved external symbol _res_servicename referenced in function _main [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_c3043.vcxproj]
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\Debug\cmTC_c3043.exe : fatal error LNK1120: 1 unresolved externals [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_c3043.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=res_servicename /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0301.dir\Debug\\" /Fd"cmTC_f0301.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _res_servicename referenced in function _main [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_f0301.vcxproj]
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\Debug\cmTC_f0301.exe : fatal error LNK1120: 1 unresolved externals [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_f0301.vcxproj]
 
 
 
 Determining if the function res_servicename exists in the resolv failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c9f33.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_39dbf.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckFunctionExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=res_servicename /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9f33.dir\Debug\\" /Fd"cmTC_c9f33.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
-LINK : fatal error LNK1104: cannot open file 'resolv.lib' [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_c9f33.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=res_servicename /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39dbf.dir\Debug\\" /Fd"cmTC_39dbf.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+LINK : fatal error LNK1104: cannot open file 'resolv.lib' [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_39dbf.vcxproj]
 
 
 
 Determining if the function gethostbyname exists failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dc182.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dca39.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   CheckFunctionExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dc182.dir\Debug\\" /Fd"cmTC_dc182.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
-CheckFunctionExists.obj : error LNK2019: unresolved external symbol _gethostbyname referenced in function _main [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_dc182.vcxproj]
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\Debug\cmTC_dc182.exe : fatal error LNK1120: 1 unresolved externals [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_dc182.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dca39.dir\Debug\\" /Fd"cmTC_dca39.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _gethostbyname referenced in function _main [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_dca39.vcxproj]
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\Debug\cmTC_dca39.exe : fatal error LNK1120: 1 unresolved externals [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_dca39.vcxproj]
 
 
 
 Determining if the function gethostbyname exists in the nsl failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_09de7.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_cf639.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckFunctionExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_09de7.dir\Debug\\" /Fd"cmTC_09de7.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
-LINK : fatal error LNK1104: cannot open file 'nsl.lib' [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_09de7.vcxproj]
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cf639.dir\Debug\\" /Fd"cmTC_cf639.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'nsl.lib' [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_cf639.vcxproj]
 
 
 
 Determining if the function gethostbyname exists in the socket failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d5777.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c9d26.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   CheckFunctionExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d5777.dir\Debug\\" /Fd"cmTC_d5777.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
-LINK : fatal error LNK1104: cannot open file 'socket.lib' [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_d5777.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c9d26.dir\Debug\\" /Fd"cmTC_c9d26.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'socket.lib' [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_c9d26.vcxproj]
 
 
 
 Determining if the function socket exists failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_62c0c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_77512.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   CheckFunctionExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=socket /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_62c0c.dir\Debug\\" /Fd"cmTC_62c0c.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
-CheckFunctionExists.obj : error LNK2019: unresolved external symbol _socket referenced in function _main [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_62c0c.vcxproj]
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\Debug\cmTC_62c0c.exe : fatal error LNK1120: 1 unresolved externals [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_62c0c.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=socket /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_77512.dir\Debug\\" /Fd"cmTC_77512.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _socket referenced in function _main [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_77512.vcxproj]
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\Debug\cmTC_77512.exe : fatal error LNK1120: 1 unresolved externals [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_77512.vcxproj]
 
 
 
 Determining if the function socket exists in the socket failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a71ef.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e2a2b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   CheckFunctionExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=socket /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a71ef.dir\Debug\\" /Fd"cmTC_a71ef.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
-LINK : fatal error LNK1104: cannot open file 'socket.lib' [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_a71ef.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=socket /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e2a2b.dir\Debug\\" /Fd"cmTC_e2a2b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'socket.lib' [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_e2a2b.vcxproj]
 
 
 
 Determining if the function clock_gettime exists failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4177d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8510f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   CheckFunctionExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=clock_gettime /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4177d.dir\Debug\\" /Fd"cmTC_4177d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
-CheckFunctionExists.obj : error LNK2019: unresolved external symbol _clock_gettime referenced in function _main [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_4177d.vcxproj]
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\Debug\cmTC_4177d.exe : fatal error LNK1120: 1 unresolved externals [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_4177d.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=clock_gettime /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8510f.dir\Debug\\" /Fd"cmTC_8510f.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _clock_gettime referenced in function _main [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_8510f.vcxproj]
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\Debug\cmTC_8510f.exe : fatal error LNK1120: 1 unresolved externals [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_8510f.vcxproj]
 
 
 
 Determining if the function clock_gettime exists in the rt failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ac0a5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5b290.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   CheckFunctionExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=clock_gettime /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ac0a5.dir\Debug\\" /Fd"cmTC_ac0a5.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
-LINK : fatal error LNK1104: cannot open file 'rt.lib' [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_ac0a5.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=clock_gettime /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5b290.dir\Debug\\" /Fd"cmTC_5b290.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'rt.lib' [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_5b290.vcxproj]
 
 
 
 Determining if files sys/socket.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_18778.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_123c3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  HAVE_SYS_SOCKET_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SOCKET_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_18778.vcxproj]
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18778.dir\Debug\\" /Fd"cmTC_18778.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SOCKET_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_123c3.dir\Debug\\" /Fd"cmTC_123c3.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SOCKET_H.c
+  HAVE_SYS_SOCKET_H.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SOCKET_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_123c3.vcxproj]
 
 
 Source:
@@ -185,14 +185,14 @@ Source:
 int main(void){return 0;}
 
 Determining if files arpa/inet.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_02a1e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_25427.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   HAVE_ARPA_INET_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_INET_H.c(2,10): fatal  error C1083: Cannot open include file: 'arpa/inet.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_02a1e.vcxproj]
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02a1e.dir\Debug\\" /Fd"cmTC_02a1e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_INET_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_25427.dir\Debug\\" /Fd"cmTC_25427.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_INET_H.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_INET_H.c(2,10): fatal  error C1083: Cannot open include file: 'arpa/inet.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_25427.vcxproj]
 
 
 Source:
@@ -203,14 +203,14 @@ Source:
 int main(void){return 0;}
 
 Determining if files arpa/nameser_compat.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_47a02.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dbca0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   HAVE_ARPA_NAMESER_COMPAT_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_COMPAT_H.c(2,10): fatal  error C1083: Cannot open include file: 'arpa/nameser_compat.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_47a02.vcxproj]
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47a02.dir\Debug\\" /Fd"cmTC_47a02.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_COMPAT_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dbca0.dir\Debug\\" /Fd"cmTC_dbca0.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_COMPAT_H.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_COMPAT_H.c(2,10): fatal  error C1083: Cannot open include file: 'arpa/nameser_compat.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_dbca0.vcxproj]
 
 
 Source:
@@ -221,14 +221,14 @@ Source:
 int main(void){return 0;}
 
 Determining if files arpa/nameser.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_75c27.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b0d13.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  HAVE_ARPA_NAMESER_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_H.c(2,10): fatal  error C1083: Cannot open include file: 'arpa/nameser.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_75c27.vcxproj]
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_75c27.dir\Debug\\" /Fd"cmTC_75c27.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0d13.dir\Debug\\" /Fd"cmTC_b0d13.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_H.c
+  HAVE_ARPA_NAMESER_H.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_NAMESER_H.c(2,10): fatal  error C1083: Cannot open include file: 'arpa/nameser.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_b0d13.vcxproj]
 
 
 Source:
@@ -239,14 +239,14 @@ Source:
 int main(void){return 0;}
 
 Determining if files netdb.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_cf593.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c7faf.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   HAVE_NETDB_H.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cf593.dir\Debug\\" /Fd"cmTC_cf593.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_NETDB_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_NETDB_H.c(2,10): fatal  error C1083: Cannot open include file: 'netdb.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_cf593.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c7faf.dir\Debug\\" /Fd"cmTC_c7faf.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_NETDB_H.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_NETDB_H.c(2,10): fatal  error C1083: Cannot open include file: 'netdb.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_c7faf.vcxproj]
 
 
 Source:
@@ -257,14 +257,14 @@ Source:
 int main(void){return 0;}
 
 Determining if files netinet/in.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b1eb3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f1afb.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  HAVE_NETINET_IN_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IN_H.c(2,10): fatal  error C1083: Cannot open include file: 'netinet/in.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_b1eb3.vcxproj]
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b1eb3.dir\Debug\\" /Fd"cmTC_b1eb3.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IN_H.c
+  HAVE_NETINET_IN_H.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IN_H.c(2,10): fatal  error C1083: Cannot open include file: 'netinet/in.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_f1afb.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1afb.dir\Debug\\" /Fd"cmTC_f1afb.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_IN_H.c
 
 
 Source:
@@ -275,14 +275,14 @@ Source:
 int main(void){return 0;}
 
 Determining if files net/if.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6a3d9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_26a09.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   HAVE_NET_IF_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_NET_IF_H.c(2,10): fatal  error C1083: Cannot open include file: 'net/if.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_6a3d9.vcxproj]
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_NET_IF_H.c(2,10): fatal  error C1083: Cannot open include file: 'net/if.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_26a09.vcxproj]
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a3d9.dir\Debug\\" /Fd"cmTC_6a3d9.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_NET_IF_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_26a09.dir\Debug\\" /Fd"cmTC_26a09.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_NET_IF_H.c
 
 
 Source:
@@ -293,14 +293,14 @@ Source:
 int main(void){return 0;}
 
 Determining if files socket.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_17bf3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e66f0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   HAVE_SOCKET_H.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17bf3.dir\Debug\\" /Fd"cmTC_17bf3.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SOCKET_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SOCKET_H.c(2,10): fatal  error C1083: Cannot open include file: 'socket.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_17bf3.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e66f0.dir\Debug\\" /Fd"cmTC_e66f0.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SOCKET_H.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SOCKET_H.c(2,10): fatal  error C1083: Cannot open include file: 'socket.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_e66f0.vcxproj]
 
 
 Source:
@@ -311,14 +311,14 @@ Source:
 int main(void){return 0;}
 
 Determining if files strings.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ba395.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5f9f6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   HAVE_STRINGS_H.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba395.dir\Debug\\" /Fd"cmTC_ba395.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c(2,10): fatal  error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_ba395.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f9f6.dir\Debug\\" /Fd"cmTC_5f9f6.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_STRINGS_H.c(2,10): fatal  error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_5f9f6.vcxproj]
 
 
 Source:
@@ -329,14 +329,14 @@ Source:
 int main(void){return 0;}
 
 Determining if files stropts.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_535e3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_300b3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   HAVE_STROPTS_H.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_535e3.dir\Debug\\" /Fd"cmTC_535e3.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c(2,10): fatal  error C1083: Cannot open include file: 'stropts.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_535e3.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_300b3.dir\Debug\\" /Fd"cmTC_300b3.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c(2,10): fatal  error C1083: Cannot open include file: 'stropts.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_300b3.vcxproj]
 
 
 Source:
@@ -347,14 +347,14 @@ Source:
 int main(void){return 0;}
 
 Determining if files sys/ioctl.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9358d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0474b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   HAVE_SYS_IOCTL_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_9358d.vcxproj]
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_0474b.vcxproj]
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9358d.dir\Debug\\" /Fd"cmTC_9358d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0474b.dir\Debug\\" /Fd"cmTC_0474b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c
 
 
 Source:
@@ -365,14 +365,14 @@ Source:
 int main(void){return 0;}
 
 Determining if files sys/param.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_096eb.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fb296.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   HAVE_SYS_PARAM_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/param.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_096eb.vcxproj]
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_096eb.dir\Debug\\" /Fd"cmTC_096eb.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb296.dir\Debug\\" /Fd"cmTC_fb296.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_PARAM_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/param.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_fb296.vcxproj]
 
 
 Source:
@@ -383,14 +383,14 @@ Source:
 int main(void){return 0;}
 
 Determining if files sys/select.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fe4b1.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_446b8.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   HAVE_SYS_SELECT_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SELECT_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/select.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_fe4b1.vcxproj]
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SELECT_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/select.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_446b8.vcxproj]
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe4b1.dir\Debug\\" /Fd"cmTC_fe4b1.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SELECT_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_446b8.dir\Debug\\" /Fd"cmTC_446b8.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_SELECT_H.c
 
 
 Source:
@@ -401,14 +401,14 @@ Source:
 int main(void){return 0;}
 
 Determining if files sys/time.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c85e6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b922e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  HAVE_SYS_TIME_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_c85e6.vcxproj]
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c85e6.dir\Debug\\" /Fd"cmTC_c85e6.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c
+  HAVE_SYS_TIME_H.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_b922e.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b922e.dir\Debug\\" /Fd"cmTC_b922e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_TIME_H.c
 
 
 Source:
@@ -419,14 +419,14 @@ Source:
 int main(void){return 0;}
 
 Determining if files sys/uio.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bd464.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e61f0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   HAVE_SYS_UIO_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/uio.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_bd464.vcxproj]
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c(2,10): fatal  error C1083: Cannot open include file: 'sys/uio.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_e61f0.vcxproj]
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bd464.dir\Debug\\" /Fd"cmTC_bd464.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e61f0.dir\Debug\\" /Fd"cmTC_e61f0.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c
 
 
 Source:
@@ -437,14 +437,14 @@ Source:
 int main(void){return 0;}
 
 Determining if files dlfcn.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8d1f5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bb2d5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  HAVE_DLFCN_H.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8d1f5.dir\Debug\\" /Fd"cmTC_8d1f5.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c(2,10): fatal  error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_8d1f5.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb2d5.dir\Debug\\" /Fd"cmTC_bb2d5.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c
+  HAVE_DLFCN_H.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_DLFCN_H.c(2,10): fatal  error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_bb2d5.vcxproj]
 
 
 Source:
@@ -455,14 +455,14 @@ Source:
 int main(void){return 0;}
 
 Determining if files unistd.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_025bd.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f9537.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  HAVE_UNISTD_H.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_025bd.dir\Debug\\" /Fd"cmTC_025bd.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_025bd.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f9537.dir\Debug\\" /Fd"cmTC_f9537.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c
+  HAVE_UNISTD_H.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_UNISTD_H.c(2,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_f9537.vcxproj]
 
 
 Source:
@@ -473,14 +473,14 @@ Source:
 int main(void){return 0;}
 
 Determining if files sys/types.h;netinet/tcp.h exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ea45f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_68688.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   HAVE_NETINET_TCP_H.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c(3,10): fatal  error C1083: Cannot open include file: 'netinet/tcp.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_ea45f.vcxproj]
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea45f.dir\Debug\\" /Fd"cmTC_ea45f.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_68688.dir\Debug\\" /Fd"cmTC_68688.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c(3,10): fatal  error C1083: Cannot open include file: 'netinet/tcp.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_68688.vcxproj]
 
 
 Source:
@@ -492,17 +492,17 @@ Source:
 int main(void){return 0;}
 
 Performing C SOURCE FILE Test HAVE_SSIZE_T failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4d39d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_90b2d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  src.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SSIZE_T /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4d39d.dir\Debug\\" /Fd"cmTC_4d39d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\src.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\src.c(16,12): error C2065: 'ssize_t': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_4d39d.vcxproj]
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\src.c(16,12): error C2146: syntax error: missing ';' before identifier 'var_exists' [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_4d39d.vcxproj]
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\src.c(16,22): error C2065: 'var_exists': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_4d39d.vcxproj]
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\src.c(17,20): error C2065: 'var_exists': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_4d39d.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_SSIZE_T /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_90b2d.dir\Debug\\" /Fd"cmTC_90b2d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\src.c
+  src.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\src.c(16,12): error C2065: 'ssize_t': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_90b2d.vcxproj]
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\src.c(16,12): error C2146: syntax error: missing ';' before identifier 'var_exists' [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_90b2d.vcxproj]
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\src.c(16,22): error C2065: 'var_exists': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_90b2d.vcxproj]
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\src.c(17,20): error C2065: 'var_exists': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_90b2d.vcxproj]
 
 
 Source file was:
@@ -527,17 +527,17 @@ Source file was:
 		}
 	
 Determining if the O_NONBLOCK exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_25642.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3101a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_25642.dir\Debug\\" /Fd"cmTC_25642.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,29): error C2065: 'O_NONBLOCK': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_25642.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3101a.dir\Debug\\" /Fd"cmTC_3101a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,29): error C2065: 'O_NONBLOCK': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_3101a.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -561,17 +561,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the SIOCGIFADDR exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8fb90.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1a47b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8fb90.dir\Debug\\" /Fd"cmTC_8fb90.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,30): error C2065: 'SIOCGIFADDR': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_8fb90.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1a47b.dir\Debug\\" /Fd"cmTC_1a47b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,30): error C2065: 'SIOCGIFADDR': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_1a47b.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -595,17 +595,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the MSG_NOSIGNAL exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ff25d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6f9ac.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ff25d.dir\Debug\\" /Fd"cmTC_ff25d.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,31): error C2065: 'MSG_NOSIGNAL': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_ff25d.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f9ac.dir\Debug\\" /Fd"cmTC_6f9ac.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,31): error C2065: 'MSG_NOSIGNAL': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_6f9ac.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -629,17 +629,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the SO_NONBLOCK exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a53ae.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3f511.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a53ae.dir\Debug\\" /Fd"cmTC_a53ae.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,30): error C2065: 'SO_NONBLOCK': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_a53ae.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f511.dir\Debug\\" /Fd"cmTC_3f511.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,30): error C2065: 'SO_NONBLOCK': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_3f511.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -663,17 +663,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the CLOCK_MONOTONIC exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9c5ad.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_09a15.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9c5ad.dir\Debug\\" /Fd"cmTC_9c5ad.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,34): error C2065: 'CLOCK_MONOTONIC': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_9c5ad.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_09a15.dir\Debug\\" /Fd"cmTC_09a15.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,34): error C2065: 'CLOCK_MONOTONIC': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_09a15.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -697,17 +697,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the bitncmp exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_29c63.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2394f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_29c63.dir\Debug\\" /Fd"cmTC_29c63.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,26): error C2065: 'bitncmp': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_29c63.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2394f.dir\Debug\\" /Fd"cmTC_2394f.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,26): error C2065: 'bitncmp': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_2394f.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -731,17 +731,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the CloseSocket exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_15173.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_87e94.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15173.dir\Debug\\" /Fd"cmTC_15173.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,30): error C2065: 'CloseSocket': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_15173.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_87e94.dir\Debug\\" /Fd"cmTC_87e94.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,30): error C2065: 'CloseSocket': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_87e94.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -765,17 +765,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the fcntl exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_aaa6b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ee9f1.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aaa6b.dir\Debug\\" /Fd"cmTC_aaa6b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,24): error C2065: 'fcntl': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_aaa6b.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ee9f1.dir\Debug\\" /Fd"cmTC_ee9f1.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,24): error C2065: 'fcntl': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_ee9f1.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -799,17 +799,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the getservbyport_r exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_9bfaf.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d4a25.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9bfaf.dir\Debug\\" /Fd"cmTC_9bfaf.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,34): error C2065: 'getservbyport_r': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_9bfaf.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d4a25.dir\Debug\\" /Fd"cmTC_d4a25.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,34): error C2065: 'getservbyport_r': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_d4a25.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -833,17 +833,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the getservbyname_r exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_27d38.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_81e2a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27d38.dir\Debug\\" /Fd"cmTC_27d38.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,34): error C2065: 'getservbyname_r': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_27d38.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81e2a.dir\Debug\\" /Fd"cmTC_81e2a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,34): error C2065: 'getservbyname_r': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_81e2a.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -867,17 +867,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the gettimeofday exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2f921.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_aee38.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f921.dir\Debug\\" /Fd"cmTC_2f921.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,31): error C2065: 'gettimeofday': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_2f921.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aee38.dir\Debug\\" /Fd"cmTC_aee38.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,31): error C2065: 'gettimeofday': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_aee38.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -901,17 +901,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the if_indextoname exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5aa22.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_b1384.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5aa22.dir\Debug\\" /Fd"cmTC_5aa22.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,33): error C2065: 'if_indextoname': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_5aa22.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b1384.dir\Debug\\" /Fd"cmTC_b1384.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,33): error C2065: 'if_indextoname': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_b1384.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -935,17 +935,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the inet_net_pton exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7c649.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_610e2.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7c649.dir\Debug\\" /Fd"cmTC_7c649.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,32): error C2065: 'inet_net_pton': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_7c649.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_610e2.dir\Debug\\" /Fd"cmTC_610e2.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,32): error C2065: 'inet_net_pton': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_610e2.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -969,17 +969,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the ioctl exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_294f7.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_caaef.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_294f7.dir\Debug\\" /Fd"cmTC_294f7.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,24): error C2065: 'ioctl': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_294f7.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_caaef.dir\Debug\\" /Fd"cmTC_caaef.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,24): error C2065: 'ioctl': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_caaef.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1003,17 +1003,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the IoctlSocket exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_39491.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_65fd1.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39491.dir\Debug\\" /Fd"cmTC_39491.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,30): error C2065: 'IoctlSocket': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_39491.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_65fd1.dir\Debug\\" /Fd"cmTC_65fd1.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,30): error C2065: 'IoctlSocket': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_65fd1.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1037,17 +1037,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the strcasecmp exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c066b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_27307.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c066b.dir\Debug\\" /Fd"cmTC_c066b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,29): error C2065: 'strcasecmp': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_c066b.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_27307.dir\Debug\\" /Fd"cmTC_27307.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,29): error C2065: 'strcasecmp': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_27307.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1071,17 +1071,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the strncasecmp exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_43e23.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fbd06.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43e23.dir\Debug\\" /Fd"cmTC_43e23.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,30): error C2065: 'strncasecmp': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_43e23.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fbd06.dir\Debug\\" /Fd"cmTC_fbd06.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,30): error C2065: 'strncasecmp': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_fbd06.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1105,17 +1105,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the strncmpi exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f9894.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d9e92.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f9894.dir\Debug\\" /Fd"cmTC_f9894.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,27): error C2065: 'strncmpi': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_f9894.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d9e92.dir\Debug\\" /Fd"cmTC_d9e92.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,27): error C2065: 'strncmpi': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_d9e92.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1139,17 +1139,17 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the writev exist failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2e5d5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a9990.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   CheckSymbolExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e5d5.dir\Debug\\" /Fd"cmTC_2e5d5.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,25): error C2065: 'writev': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_2e5d5.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9990.dir\Debug\\" /Fd"cmTC_a9990.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(17,25): error C2065: 'writev': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_a9990.vcxproj]
 
 
-File C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <stdbool.h>
 #include <sys/types.h>
@@ -1173,28 +1173,28 @@ int main(int argc, char** argv)
 #endif
 }
 Determining if the function __system_property_get exists failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7eeb0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3275e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckFunctionExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__system_property_get /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7eeb0.dir\Debug\\" /Fd"cmTC_7eeb0.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
-CheckFunctionExists.obj : error LNK2019: unresolved external symbol ___system_property_get referenced in function _main [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_7eeb0.vcxproj]
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\Debug\cmTC_7eeb0.exe : fatal error LNK1120: 1 unresolved externals [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_7eeb0.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__system_property_get /D WIN32_LEAN_AND_MEAN /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3275e.dir\Debug\\" /Fd"cmTC_3275e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol ___system_property_get referenced in function _main [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_3275e.vcxproj]
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\Debug\cmTC_3275e.exe : fatal error LNK1120: 1 unresolved externals [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_3275e.vcxproj]
 
 
 
 Performing C++ SOURCE FILE Test protobuf_HAVE_LD_VERSION_SCRIPT failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_408c6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f4f73.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  Copyright (C) Microsoft Corporation.  All rights reserved.
   src.cxx
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D protobuf_HAVE_LD_VERSION_SCRIPT /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_408c6.dir\Debug\\" /Fd"cmTC_408c6.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\src.cxx
-LINK : warning LNK4044: unrecognized option '/Wl,--version-script=C:/work/projects/grpc_alex/build_windows_32/third_party/protobuf/cmaketest.map'; ignored [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_408c6.vcxproj]
-  cmTC_408c6.vcxproj -> C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\Debug\cmTC_408c6.exe
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D protobuf_HAVE_LD_VERSION_SCRIPT /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f4f73.dir\Debug\\" /Fd"cmTC_f4f73.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\src.cxx
+LINK : warning LNK4044: unrecognized option '/Wl,--version-script=C:/work/projects/grpc/build_windows_32/third_party/protobuf/cmaketest.map'; ignored [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_f4f73.vcxproj]
+  cmTC_f4f73.vcxproj -> C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\Debug\cmTC_f4f73.exe
 
 
 Source file was:
@@ -1330,21 +1330,21 @@ Checking whether the ASM_NASM compiler is ARMCC using "" did not match "(ARM Com
 nasm: fatal: no input file specified
 type `nasm -h' for help
 Determining size of off64_t failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4b36b.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_15311.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
   OFF64_T.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckTypeSize\OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_4b36b.vcxproj]
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckTypeSize\OFF64_T.c(30,12): error C2065: 'off64_t': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_4b36b.vcxproj]
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckTypeSize\OFF64_T.c(31,12): error C2065: 'off64_t': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_4b36b.vcxproj]
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckTypeSize\OFF64_T.c(32,12): error C2065: 'off64_t': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_4b36b.vcxproj]
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4b36b.dir\Debug\\" /Fd"cmTC_4b36b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckTypeSize\OFF64_T.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CheckTypeSize\OFF64_T.c(33,12): error C2065: 'off64_t': undeclared identifier [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_4b36b.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15311.dir\Debug\\" /Fd"cmTC_15311.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckTypeSize\OFF64_T.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckTypeSize\OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_15311.vcxproj]
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckTypeSize\OFF64_T.c(30,12): error C2065: 'off64_t': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_15311.vcxproj]
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckTypeSize\OFF64_T.c(31,12): error C2065: 'off64_t': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_15311.vcxproj]
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckTypeSize\OFF64_T.c(32,12): error C2065: 'off64_t': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_15311.vcxproj]
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CheckTypeSize\OFF64_T.c(33,12): error C2065: 'off64_t': undeclared identifier [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_15311.vcxproj]
 
 
-C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CheckTypeSize/OFF64_T.c:
+C:/work/projects/grpc/build_windows_32/CMakeFiles/CheckTypeSize/OFF64_T.c:
 #include <sys/types.h>
 #include <stdint.h>
 #include <stddef.h>
@@ -1398,27 +1398,27 @@ int main(int argc, char *argv[])
 
 
 Determining if the function fseeko exists failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_43ee1.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_28b14.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckFunctionExists.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43ee1.dir\Debug\\" /Fd"cmTC_43ee1.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
-CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_43ee1.vcxproj]
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\Debug\cmTC_43ee1.exe : fatal error LNK1120: 1 unresolved externals [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_43ee1.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28b14.dir\Debug\\" /Fd"cmTC_28b14.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_28b14.vcxproj]
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\Debug\cmTC_28b14.exe : fatal error LNK1120: 1 unresolved externals [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_28b14.vcxproj]
 
 
 
 Determining if the include file unistd.h exists failed with the following output:
-Change Dir: C:/work/projects/grpc_alex/build_windows_32/CMakeFiles/CMakeTmp
+Change Dir: C:/work/projects/grpc/build_windows_32/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2d4bb.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1d75f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.4.0+18d5aef85 for .NET Framework
   Microsoft (R) C/C++ Optimizing Compiler Version 19.34.31933 for x86
-  CheckIncludeFile.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2d4bb.dir\Debug\\" /Fd"cmTC_2d4bb.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\work\projects\grpc_alex\build_windows_32\CMakeFiles\CMakeTmp\cmTC_2d4bb.vcxproj]
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1d75f.dir\Debug\\" /Fd"cmTC_1d75f.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /wd4065 /wd4506 /wd4200 /wd4291 /wd4244 /wd4267 /wd4987 /wd4774 /wd4819 /wd4996 /wd4619 /wd4503 /analyze- /errorReport:queue  /utf-8 C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): fatal  error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\work\projects\grpc\build_windows_32\CMakeFiles\CMakeTmp\cmTC_1d75f.vcxproj]
 
 
 

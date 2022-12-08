@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/work/projects/grpc_alex/third_party/abseil-cpp
-BuildDirectory: C:/work/projects/grpc_alex/build_windows_32/third_party/abseil-cpp
+SourceDirectory: C:/work/projects/grpc/third_party/abseil-cpp
+BuildDirectory: C:/work/projects/grpc/build_windows_32/third_party/abseil-cpp
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "C:/work/projects/grpc_alex/third_party/abseil-cpp"
+ConfigureCommand: "C:/Program Files/Microsoft Visual Studio/2022/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "C:/work/projects/grpc/third_party/abseil-cpp"
 MakeCommand: "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

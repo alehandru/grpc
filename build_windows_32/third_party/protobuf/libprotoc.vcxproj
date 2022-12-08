@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6B69C7DD-792B-3D10-BD42-A76BD0F0035A}</ProjectGuid>
+    <ProjectGuid>{CDA04C30-DD06-32C1-8192-6CACCFBEE93B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
     <Platform>Win32</Platform>
@@ -52,7 +52,7 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
-    <Import Project="C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf\libprotoc.dir\nasm.props" />
+    <Import Project="$(SolutionDir)..\build_windows_32\third_party\protobuf\libprotoc.dir\nasm.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -60,26 +60,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)..\build_windows_32\third_party\protobuf\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libprotoc.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libprotocd</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)..\build_windows_32\third_party\protobuf\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libprotoc.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libprotoc</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)..\build_windows_32\third_party\protobuf\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libprotoc.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libprotoc</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)..\build_windows_32\third_party\protobuf\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libprotoc.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libprotoc</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf;C:\work\projects\grpc_alex\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\build_windows_32\third_party\protobuf;$(SolutionDir)..\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8 /utf-8 /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -99,15 +99,15 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;LIBPROTOC_EXPORTS;_WIN32_WINNT=0x600;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf;C:\work\projects\grpc_alex\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\build_windows_32\third_party\protobuf;$(SolutionDir)..\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <NASM>
-      <IncludePaths>C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf\;C:\work\projects\grpc_alex\third_party\protobuf\src\;%(IncludePaths)</IncludePaths>
+      <IncludePaths>$(SolutionDir)..\build_windows_32\third_party\protobuf\;$(SolutionDir)..\third_party\protobuf\src\;%(IncludePaths)</IncludePaths>
       <AdditionalOptions>-f</AdditionalOptions>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;LIBPROTOC_EXPORTS;_WIN32_WINNT=0x600;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
     </NASM>
     <Midl>
-      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf;C:\work\projects\grpc_alex\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\build_windows_32\third_party\protobuf;$(SolutionDir)..\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -120,7 +120,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf;C:\work\projects\grpc_alex\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\build_windows_32\third_party\protobuf;$(SolutionDir)..\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8 /utf-8 /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4065;4506;4200;4291;4244;4267;4987;4774;4819;4996;4619;4503;4065;4244;4251;4267;4305;4307;4309;4334;4355;4506;4800;4996</DisableSpecificWarnings>
@@ -140,15 +140,15 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBPROTOC_EXPORTS;_WIN32_WINNT=0x600;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf;C:\work\projects\grpc_alex\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\build_windows_32\third_party\protobuf;$(SolutionDir)..\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <NASM>
-      <IncludePaths>C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf\;C:\work\projects\grpc_alex\third_party\protobuf\src\;%(IncludePaths)</IncludePaths>
+      <IncludePaths>$(SolutionDir)..\build_windows_32\third_party\protobuf\;$(SolutionDir)..\third_party\protobuf\src\;%(IncludePaths)</IncludePaths>
       <AdditionalOptions>-f</AdditionalOptions>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBPROTOC_EXPORTS;_WIN32_WINNT=0x600;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
     </NASM>
     <Midl>
-      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf;C:\work\projects\grpc_alex\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\build_windows_32\third_party\protobuf;$(SolutionDir)..\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -161,7 +161,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf;C:\work\projects\grpc_alex\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\build_windows_32\third_party\protobuf;$(SolutionDir)..\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8 /utf-8 /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DisableSpecificWarnings>4065;4506;4200;4291;4244;4267;4987;4774;4819;4996;4619;4503;4065;4244;4251;4267;4305;4307;4309;4334;4355;4506;4800;4996</DisableSpecificWarnings>
@@ -181,15 +181,15 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBPROTOC_EXPORTS;_WIN32_WINNT=0x600;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf;C:\work\projects\grpc_alex\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\build_windows_32\third_party\protobuf;$(SolutionDir)..\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <NASM>
-      <IncludePaths>C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf\;C:\work\projects\grpc_alex\third_party\protobuf\src\;%(IncludePaths)</IncludePaths>
+      <IncludePaths>$(SolutionDir)..\build_windows_32\third_party\protobuf\;$(SolutionDir)..\third_party\protobuf\src\;%(IncludePaths)</IncludePaths>
       <AdditionalOptions>-f</AdditionalOptions>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBPROTOC_EXPORTS;_WIN32_WINNT=0x600;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
     </NASM>
     <Midl>
-      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf;C:\work\projects\grpc_alex\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\build_windows_32\third_party\protobuf;$(SolutionDir)..\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -202,7 +202,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf;C:\work\projects\grpc_alex\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\build_windows_32\third_party\protobuf;$(SolutionDir)..\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>%(AdditionalOptions) /utf-8 /utf-8 /bigobj</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -221,15 +221,15 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBPROTOC_EXPORTS;_WIN32_WINNT=0x600;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf;C:\work\projects\grpc_alex\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\build_windows_32\third_party\protobuf;$(SolutionDir)..\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <NASM>
-      <IncludePaths>C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf\;C:\work\projects\grpc_alex\third_party\protobuf\src\;%(IncludePaths)</IncludePaths>
+      <IncludePaths>$(SolutionDir)..\build_windows_32\third_party\protobuf\;$(SolutionDir)..\third_party\protobuf\src\;%(IncludePaths)</IncludePaths>
       <AdditionalOptions>-f</AdditionalOptions>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LIBPROTOC_EXPORTS;_WIN32_WINNT=0x600;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;GOOGLE_PROTOBUF_CMAKE_BUILD;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
     </NASM>
     <Midl>
-      <AdditionalIncludeDirectories>C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf;C:\work\projects\grpc_alex\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\build_windows_32\third_party\protobuf;$(SolutionDir)..\third_party\protobuf\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -241,11 +241,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\work\projects\grpc_alex\third_party\protobuf\cmake\CMakeLists.txt">
+    <CustomBuild Include="$(SolutionDir)..\third_party\protobuf\cmake\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/work/projects/grpc_alex/third_party/protobuf/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/work/projects/grpc/third_party/protobuf/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex -BC:/work/projects/grpc_alex/build_windows_32 --check-stamp-file C:/work/projects/grpc_alex/build_windows_32/third_party/protobuf/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc -BC:/work/projects/grpc/build_windows_32 --check-stamp-file C:/work/projects/grpc/build_windows_32/third_party/protobuf/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -253,12 +253,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLinkerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckLinkerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\work\projects\grpc_alex\third_party\protobuf\CMakeLists.txt;C:\work\projects\grpc_alex\third_party\protobuf\cmake\extract_includes.bat.in;C:\work\projects\grpc_alex\third_party\protobuf\cmake\install.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\libprotobuf-lite.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\libprotobuf.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\libprotoc.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-config-version.cmake.in;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-config.cmake.in;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-lite.pc.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-module.cmake.in;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-options.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf.pc.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protoc.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\version.rc.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLinkerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckLinkerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;$(SolutionDir)..\third_party\protobuf\CMakeLists.txt;$(SolutionDir)..\third_party\protobuf\cmake\extract_includes.bat.in;$(SolutionDir)..\third_party\protobuf\cmake\install.cmake;$(SolutionDir)..\third_party\protobuf\cmake\libprotobuf-lite.cmake;$(SolutionDir)..\third_party\protobuf\cmake\libprotobuf.cmake;$(SolutionDir)..\third_party\protobuf\cmake\libprotoc.cmake;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-config-version.cmake.in;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-config.cmake.in;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-lite.pc.cmake;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-module.cmake.in;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-options.cmake;$(SolutionDir)..\third_party\protobuf\cmake\protobuf.pc.cmake;$(SolutionDir)..\third_party\protobuf\cmake\protoc.cmake;$(SolutionDir)..\third_party\protobuf\cmake\version.rc.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)..\build_windows_32\third_party\protobuf\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/work/projects/grpc_alex/third_party/protobuf/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/work/projects/grpc/third_party/protobuf/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex -BC:/work/projects/grpc_alex/build_windows_32 --check-stamp-file C:/work/projects/grpc_alex/build_windows_32/third_party/protobuf/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc -BC:/work/projects/grpc/build_windows_32 --check-stamp-file C:/work/projects/grpc/build_windows_32/third_party/protobuf/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -266,12 +266,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLinkerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckLinkerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\work\projects\grpc_alex\third_party\protobuf\CMakeLists.txt;C:\work\projects\grpc_alex\third_party\protobuf\cmake\extract_includes.bat.in;C:\work\projects\grpc_alex\third_party\protobuf\cmake\install.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\libprotobuf-lite.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\libprotobuf.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\libprotoc.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-config-version.cmake.in;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-config.cmake.in;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-lite.pc.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-module.cmake.in;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-options.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf.pc.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protoc.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\version.rc.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLinkerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckLinkerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;$(SolutionDir)..\third_party\protobuf\CMakeLists.txt;$(SolutionDir)..\third_party\protobuf\cmake\extract_includes.bat.in;$(SolutionDir)..\third_party\protobuf\cmake\install.cmake;$(SolutionDir)..\third_party\protobuf\cmake\libprotobuf-lite.cmake;$(SolutionDir)..\third_party\protobuf\cmake\libprotobuf.cmake;$(SolutionDir)..\third_party\protobuf\cmake\libprotoc.cmake;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-config-version.cmake.in;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-config.cmake.in;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-lite.pc.cmake;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-module.cmake.in;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-options.cmake;$(SolutionDir)..\third_party\protobuf\cmake\protobuf.pc.cmake;$(SolutionDir)..\third_party\protobuf\cmake\protoc.cmake;$(SolutionDir)..\third_party\protobuf\cmake\version.rc.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)..\build_windows_32\third_party\protobuf\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/work/projects/grpc_alex/third_party/protobuf/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/work/projects/grpc/third_party/protobuf/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex -BC:/work/projects/grpc_alex/build_windows_32 --check-stamp-file C:/work/projects/grpc_alex/build_windows_32/third_party/protobuf/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc -BC:/work/projects/grpc/build_windows_32 --check-stamp-file C:/work/projects/grpc/build_windows_32/third_party/protobuf/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -279,12 +279,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLinkerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckLinkerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\work\projects\grpc_alex\third_party\protobuf\CMakeLists.txt;C:\work\projects\grpc_alex\third_party\protobuf\cmake\extract_includes.bat.in;C:\work\projects\grpc_alex\third_party\protobuf\cmake\install.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\libprotobuf-lite.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\libprotobuf.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\libprotoc.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-config-version.cmake.in;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-config.cmake.in;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-lite.pc.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-module.cmake.in;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-options.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf.pc.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protoc.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\version.rc.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLinkerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckLinkerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;$(SolutionDir)..\third_party\protobuf\CMakeLists.txt;$(SolutionDir)..\third_party\protobuf\cmake\extract_includes.bat.in;$(SolutionDir)..\third_party\protobuf\cmake\install.cmake;$(SolutionDir)..\third_party\protobuf\cmake\libprotobuf-lite.cmake;$(SolutionDir)..\third_party\protobuf\cmake\libprotobuf.cmake;$(SolutionDir)..\third_party\protobuf\cmake\libprotoc.cmake;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-config-version.cmake.in;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-config.cmake.in;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-lite.pc.cmake;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-module.cmake.in;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-options.cmake;$(SolutionDir)..\third_party\protobuf\cmake\protobuf.pc.cmake;$(SolutionDir)..\third_party\protobuf\cmake\protoc.cmake;$(SolutionDir)..\third_party\protobuf\cmake\version.rc.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(SolutionDir)..\build_windows_32\third_party\protobuf\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/work/projects/grpc_alex/third_party/protobuf/cmake/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/work/projects/grpc/third_party/protobuf/cmake/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc_alex -BC:/work/projects/grpc_alex/build_windows_32 --check-stamp-file C:/work/projects/grpc_alex/build_windows_32/third_party/protobuf/CMakeFiles/generate.stamp
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/work/projects/grpc -BC:/work/projects/grpc/build_windows_32 --check-stamp-file C:/work/projects/grpc/build_windows_32/third_party/protobuf/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -292,185 +292,185 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLinkerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckLinkerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;C:\work\projects\grpc_alex\third_party\protobuf\CMakeLists.txt;C:\work\projects\grpc_alex\third_party\protobuf\cmake\extract_includes.bat.in;C:\work\projects\grpc_alex\third_party\protobuf\cmake\install.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\libprotobuf-lite.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\libprotobuf.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\libprotoc.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-config-version.cmake.in;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-config.cmake.in;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-lite.pc.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-module.cmake.in;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf-options.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protobuf.pc.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\protoc.cmake;C:\work\projects\grpc_alex\third_party\protobuf\cmake\version.rc.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeDependentOption.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckCSourceCompiles.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckIncludeFile.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLibraryExists.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CheckLinkerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindPackageMessage.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\FindThreads.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\GNUInstallDirs.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckFlagCommonConfig.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckLinkerFlag.cmake;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Internal\CheckSourceCompiles.cmake;$(SolutionDir)..\third_party\protobuf\CMakeLists.txt;$(SolutionDir)..\third_party\protobuf\cmake\extract_includes.bat.in;$(SolutionDir)..\third_party\protobuf\cmake\install.cmake;$(SolutionDir)..\third_party\protobuf\cmake\libprotobuf-lite.cmake;$(SolutionDir)..\third_party\protobuf\cmake\libprotobuf.cmake;$(SolutionDir)..\third_party\protobuf\cmake\libprotoc.cmake;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-config-version.cmake.in;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-config.cmake.in;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-lite.pc.cmake;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-module.cmake.in;$(SolutionDir)..\third_party\protobuf\cmake\protobuf-options.cmake;$(SolutionDir)..\third_party\protobuf\cmake\protobuf.pc.cmake;$(SolutionDir)..\third_party\protobuf\cmake\protoc.cmake;$(SolutionDir)..\third_party\protobuf\cmake\version.rc.in;C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(SolutionDir)..\build_windows_32\third_party\protobuf\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\code_generator.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\command_line_interface.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\enum.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\code_generator.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\command_line_interface.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\enum.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/cpp/enum.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\enum_field.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\enum_field.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/cpp/enum_field.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\extension.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\extension.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/cpp/extension.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\field.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\field.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/cpp/field.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\file.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\file.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/cpp/file.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\generator.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\generator.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/cpp/generator.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\helpers.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\helpers.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/cpp/helpers.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\map_field.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\map_field.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/cpp/map_field.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\message.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\message.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/cpp/message.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\message_field.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\message_field.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/cpp/message_field.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\padding_optimizer.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\parse_function_generator.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\primitive_field.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\padding_optimizer.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\parse_function_generator.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\primitive_field.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/cpp/primitive_field.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\service.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\service.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/cpp/service.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\string_field.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\string_field.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/cpp/string_field.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_doc_comment.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_enum.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_enum_field.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_field_base.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_generator.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_helpers.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_map_field.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_message.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_message_field.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_primitive_field.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_reflection_class.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_repeated_enum_field.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_repeated_message_field.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_repeated_primitive_field.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_source_generator_base.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_wrapper_field.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\context.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\doc_comment.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\enum.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_doc_comment.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_enum.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_enum_field.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_field_base.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_generator.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_helpers.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_map_field.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_message.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_message_field.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_primitive_field.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_reflection_class.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_repeated_enum_field.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_repeated_message_field.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_repeated_primitive_field.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_source_generator_base.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_wrapper_field.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\context.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\doc_comment.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\enum.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/java/enum.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\enum_field.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\enum_field.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/java/enum_field.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\enum_field_lite.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\enum_lite.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\extension.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\enum_field_lite.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\enum_lite.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\extension.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/java/extension.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\extension_lite.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\field.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\extension_lite.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\field.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/java/field.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\file.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\file.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/java/file.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\generator.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\generator.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/java/generator.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\generator_factory.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\helpers.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\generator_factory.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\helpers.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/java/helpers.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\kotlin_generator.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\map_field.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\kotlin_generator.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\map_field.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/java/map_field.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\map_field_lite.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\message.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\map_field_lite.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\message.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/java/message.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\message_builder.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\message_builder_lite.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\message_field.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\message_builder.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\message_builder_lite.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\message_field.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/java/message_field.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\message_field_lite.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\message_lite.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\name_resolver.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\primitive_field.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\message_field_lite.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\message_lite.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\name_resolver.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\primitive_field.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/java/primitive_field.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\primitive_field_lite.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\service.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\primitive_field_lite.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\service.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/java/service.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\shared_code_generator.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\string_field.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\shared_code_generator.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\string_field.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/java/string_field.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\string_field_lite.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_enum.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_enum_field.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_extension.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_field.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_file.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_generator.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_helpers.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_map_field.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_message.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_message_field.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_oneof.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_primitive_field.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\php\php_generator.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\plugin.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\plugin.pb.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\python\generator.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\string_field_lite.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_enum.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_enum_field.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_extension.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_field.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_file.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_generator.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_helpers.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_map_field.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_message.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_message_field.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_oneof.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_primitive_field.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\php\php_generator.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\plugin.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\plugin.pb.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\python\generator.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/python/generator.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\python\helpers.cc">
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\python\helpers.cc">
       <ObjectFileName>$(IntDir)/__/src/google/protobuf/compiler/python/helpers.cc.obj</ObjectFileName>
     </ClCompile>
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\python\pyi_generator.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\ruby\ruby_generator.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\subprocess.cc" />
-    <ClCompile Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\zip_writer.cc" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\code_generator.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\command_line_interface.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\cpp_generator.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\file.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\generator.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\helpers.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\cpp\names.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_doc_comment.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_generator.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_names.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_options.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\generator.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\java_generator.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\kotlin_generator.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\java\names.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_generator.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_helpers.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\php\php_generator.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\plugin.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\python\generator.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\python\pyi_generator.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\python\python_generator.h" />
-    <ClInclude Include="C:\work\projects\grpc_alex\third_party\protobuf\src\google\protobuf\compiler\ruby\ruby_generator.h" />
-    <ResourceCompile Include="C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf\version.rc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\python\pyi_generator.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\ruby\ruby_generator.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\subprocess.cc" />
+    <ClCompile Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\zip_writer.cc" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\code_generator.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\command_line_interface.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\cpp_generator.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\file.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\generator.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\helpers.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\cpp\names.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_doc_comment.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_generator.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_names.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\csharp\csharp_options.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\generator.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\java_generator.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\kotlin_generator.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\java\names.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_generator.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\objectivec\objectivec_helpers.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\php\php_generator.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\plugin.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\python\generator.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\python\pyi_generator.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\python\python_generator.h" />
+    <ClInclude Include="$(SolutionDir)..\third_party\protobuf\src\google\protobuf\compiler\ruby\ruby_generator.h" />
+    <ResourceCompile Include="$(SolutionDir)..\build_windows_32\third_party\protobuf\version.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\ZERO_CHECK.vcxproj">
-      <Project>{14C081F1-D45E-3AE0-AF48-6A4B93D27FDA}</Project>
+    <ProjectReference Include="$(SolutionDir)..\build_windows_32\ZERO_CHECK.vcxproj">
+      <Project>{FF0F8C8B-DB26-3294-8D0C-46DECF4BE057}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\work\projects\grpc_alex\build_windows_32\third_party\protobuf\libprotobuf.vcxproj">
-      <Project>{DDF7B8DF-4872-3170-9CCC-1439D95F64D6}</Project>
+    <ProjectReference Include="$(SolutionDir)..\build_windows_32\third_party\protobuf\libprotobuf.vcxproj">
+      <Project>{D373D3DC-1A43-387C-B478-51F9C8687DDF}</Project>
       <Name>libprotobuf</Name>
     </ProjectReference>
   </ItemGroup>
